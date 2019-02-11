@@ -33,5 +33,6 @@ int main(){
     B = initialize_matrix(M, 1);
     printf("Enter B:\n", );
     input_matrix(B, M, 1);
+    printf("Yes");
   return 0;
 }
