@@ -1,16 +1,18 @@
-#include<stdio.h>
+/* This file contains basic matrix operations which can be used multiple scenarios. Includes common opeartions like pseudo-inverse, transpose*/
+// Uses GNU Scientific Library: https://www.gnu.org/software/gsl/doc/html/linalg.html
+
 #include<stdlib.h>
 #include<gsl/gsl_matrix.h>
 #include<gsl/gsl_vector.h>
 #include<gsl/gsl_linalg.h>
 #include<gsl/gsl_math.h>
 #include<gsl/gsl_blas.h>
-#include<time.h>
 
 void initialize_matrix(gsl_matrix * matrix){
+  // Randomly fills the entries with values between -1 and 1
   int N = matrix->size1, M = matrix->size2;
   double x;
-  srand(time(0));
+  srand(time(0)); // Random seed
   for(int i=0; i<N; i++){
     for(int j=0; j<M; j++){
       x = (((double)rand()-(RAND_MAX/2.0))/(RAND_MAX/2.0));
@@ -20,6 +22,7 @@ void initialize_matrix(gsl_matrix * matrix){
 }
 
 void print_matrix(gsl_matrix * matrix){
+  // Prints a matrix
   int N = matrix->size1, M = matrix->size2;
   double x;
   for(int i=0; i<N; i++){
@@ -44,9 +47,8 @@ gsl_matrix * transpose(gsl_matrix * matrix){
 
 void orthonormalize(gsl_matrix * matrix){
   const size_t M = matrix->size1, N = matrix->size2;
-  //const size_t k =  GSL_MIN (M, N);
+  //const size_t k =  GSL_MIN (M, N)
   int flag;
-  //printf("%d\n", k==GSL_MIN(M, N));
   gsl_vector * tau = gsl_vector_calloc(GSL_MIN (M, N));
   flag = gsl_linalg_QR_decomp(matrix, tau);
   if (flag==1)
@@ -153,10 +155,8 @@ gsl_matrix * pseudo_inverse(gsl_matrix * matrix){
   gsl_vector * work = gsl_vector_alloc(N);
   gsl_vector * S = gsl_vector_alloc(N);
   gsl_matrix * V = gsl_matrix_alloc(N, N);
-
   // A = U x Sigma x V_T . The below function overwrites A with U. S = diag(Sigma). V is the transpose of V Transpose
   flag = gsl_linalg_SV_decomp(A, V, S, work);
-
   if (flag==1)
     printf("Error!!");
   // Inverse of Sigma Matrix
@@ -165,7 +165,6 @@ gsl_matrix * pseudo_inverse(gsl_matrix * matrix){
     if(temp!=0)
       gsl_vector_set(S, i, 1.0/temp);
   }
-
   flag = matrix_diagonal_product(S, V, 2);
   if (flag==1)
     printf("Error!!");
@@ -180,47 +179,4 @@ gsl_matrix * pseudo_inverse(gsl_matrix * matrix){
   gsl_matrix_free(A_T);
   gsl_matrix_free(V);
   return C;
-}
-
-int main (void){
-  //int m_arr[10] = {128, 256, 512, 1024, 2048, 4096, 8192, 16384, 32786, 65536};
-  //int d_arr[7] = {5, 10, 25, 50, 75, 100, 125};
-  int m_arr[3] = {4, 8, 16};
-  int d_arr[3] = {1, 2, 3};
-  int m, d;
-  for(int i1=0; i1<3; i1++){
-    m = m_arr[i1];
-    for(int j1=0; j1<3; j1++){
-      d = d_arr[j1];
-
-      gsl_matrix * A = gsl_matrix_alloc(m, d);
-      gsl_matrix * B = gsl_matrix_alloc(m, d);
-      gsl_matrix * C = gsl_matrix_alloc(m, m);
-
-      initialize_matrix(A);
-      initialize_matrix(B);
-      initialize_matrix(C);
-
-      orthonormalize(A);
-      orthonormalize(B);
-      orthonormalize(C);
-
-      gsl_matrix * pinv_A = pseudo_inverse(A);
-      gsl_matrix * pinv_B = pseudo_inverse(B);
-      gsl_matrix * pinv_C = pseudo_inverse(C);
-      /*
-      print_matrix(A);
-      printf("\n");
-      print_matrix(B);
-      printf("\n");
-      print_matrix(C);
-      printf("\n");
-      */
-      gsl_matrix_free(A);
-      gsl_matrix_free(B);
-      gsl_matrix_free(C);
-    }
-    printf("\n");
-  }
-  return 0;
 }
