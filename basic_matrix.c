@@ -180,3 +180,15 @@ gsl_matrix * pseudo_inverse(gsl_matrix * matrix){
   gsl_matrix_free(V);
   return C;
 }
+
+gsl_matrix * Generate_Matrix(int M, int N){
+  // Returns a random matrices with orthonormal columns
+  gsl_matrix * matrix = gsl_matrix_alloc(M, N);
+  initialize_matrix(matrix);
+  orthonormalize(matrix);
+  return matrix;
+}
+
+int main(){
+  
+}
