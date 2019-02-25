@@ -31,6 +31,17 @@ void print_matrix(gsl_matrix * matrix){
   }
 }
 
+gsl_matrix * transpose(gsl_matrix * matrix){
+  // Returns transpose of a matrix as a separate matrix
+  gsl_matrix * matrix_T = gsl_matrix_alloc(matrix->size2, matrix->size1);
+  for(int i=0; i< (matrix_T->size1); i++){
+    for(int j=0; j< (matrix_T->size2); j++){
+      gsl_matrix_set(matrix_T, i, j, gsl_matrix_get(matrix, j, i));
+    }
+  }
+  return matrix_T;
+}
+
 void orthonormalize(gsl_matrix * matrix){
   const size_t M = matrix->size1, N = matrix->size2;
   //const size_t k =  GSL_MIN (M, N);
@@ -91,6 +102,46 @@ int matrix_mul(gsl_matrix * A, gsl_matrix * B, gsl_matrix * C){
   return 0;
 }
 
+int matrix_diagonal_product(gsl_vector * V, gsl_matrix * matrix, int type){
+  /* Multiplies a diogonal matrix and diagonal matrix in O(NM) MxN is the dimension of the matrix
+  Product overwrites matrix
+  V represents a diagonal matrix in vector form
+  type = 1 : mat(V) x matrix
+  type = 2 : matrix x mat(V)
+  */
+  int temp;
+  if(type==1){
+    if(V->size != matrix->size1){
+      printf("Error: Dimensions do not match");
+      return 1;
+    }
+    for(int i=0; i< (matrix->size1); i++){
+      for(int j=0; j< (matrix->size2); j++){
+        temp = gsl_matrix_get(matrix, i, j);
+        temp = temp*gsl_vector_get(V, i);
+        gsl_matrix_set(matrix, i, j, temp);
+      }
+    }
+  }
+  else if(type==2){
+    if(V->size != matrix->size2){
+      printf("Error: Dimensions do not match");
+      return 1;
+    }
+    for(int i=0; i< (matrix->size1); i++){
+      for(int j=0; j< (matrix->size2); j++){
+        temp = gsl_matrix_get(matrix, i, j);
+        temp = temp*gsl_vector_get(V, j);
+        gsl_matrix_set(matrix, i, j, temp);
+      }
+    }
+  }
+  else{
+    printf("Error: Incorrect type of multiplication specified");
+    return 1;
+  }
+  return 0;
+}
 
 gsl_matrix * pseudo_inverse(gsl_matrix * matrix){
   int flag, M = matrix->size1, N = matrix->size2, temp;
@@ -111,10 +162,21 @@ gsl_matrix * pseudo_inverse(gsl_matrix * matrix){
     if(temp!=0)
       gsl_vector_set(S, i, 1.0/temp);
   }
+  gsl_matrix * V_T = transpose(V);
+  gsl_matrix_free(V);
+  flag = matrix_diagonal_product(S, V_T, 1);
+  if (flag==1)
+    printf("Error!!");
+  C = gsl_matrix_alloc(M, N);
+
+  flag = matrix_mul(A, V_T, C);
+  if (flag==1)
+    printf("Error!!");
   gsl_vector_free(S);
   gsl_vector_free(work);
-  gsl_matrix_free(V);
-  return A;
+  gsl_matrix_free(A);
+  gsl_matrix_free(V_T);
+  return C;
 }
 
 int main (void){
@@ -140,7 +202,9 @@ int main (void){
       orthonormalize(B);
       orthonormalize(C);
 
-
+      gsl_matrix * pinv_A = pseudo_inverse(A);
+      gsl_matrix * pinv_B = pseudo_inverse(B);
+      gsl_matrix * pinv_C = pseudo_inverse(C);
       /*
       print_matrix(A);
       printf("\n");
