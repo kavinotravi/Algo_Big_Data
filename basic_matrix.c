@@ -196,7 +196,7 @@ gsl_matrix * Generate_Matrix(int M, int N){
 int main(){
   int flag;
   for(int i=0; i<1; i++){
-    gsl_matrix * A = Generate_Matrix(5, 5);
+    gsl_matrix * A = Generate_Matrix(8, 3);
     printf("Matrix A\n");
     print_matrix(A);
     printf("\n");
@@ -205,8 +205,8 @@ int main(){
     printf("Matrix A Transpose\n");
     print_matrix(A_T);
     printf("\n");
-    gsl_matrix * product_ortho1 = gsl_matrix_alloc(5, 5);
-    gsl_matrix * product_ortho2 = gsl_matrix_alloc(5, 5);
+    gsl_matrix * product_ortho1 = gsl_matrix_alloc(8, 8);
+    gsl_matrix * product_ortho2 = gsl_matrix_alloc(3, 3);
     flag = matrix_mul(A, A_T, product_ortho1);
     if (flag==1)
       printf("Error!!");
@@ -222,8 +222,8 @@ int main(){
     gsl_matrix_free(product_ortho1);
     gsl_matrix_free(product_ortho2);
 
-    product_ortho1 = gsl_matrix_alloc(5, 5);
-    product_ortho2 = gsl_matrix_alloc(5, 5);
+    product_ortho1 = gsl_matrix_alloc(8, 8);
+    product_ortho2 = gsl_matrix_alloc(3, 3);
     gsl_matrix_free(A_T);
     gsl_matrix * inv = pseudo_inverse(A);
     printf("Inverse of Matrix A\n");
