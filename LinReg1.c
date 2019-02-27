@@ -5,6 +5,8 @@
 #include<gsl/gsl_linalg.h>
 #include<gsl/gsl_math.h>
 #include<gsl/gsl_blas.h>
+#include <sys/times.h>
+#include <unistd.h>
 #include<time.h>
 #include<math.h>
 
@@ -267,7 +269,7 @@ gsl_vector * Random_Diagonal(int M){
 }
 
 gsl_matrix * HadamardProduct(gsl_matrix * A, int N1, int N2){
-  // N1 is inclusive and N2 is exclusive
+  // N1 and N2 are inclusive
   // Assumming dimesnions of A are powers of 2
   if((N2-N1)==1){
     gsl_matrix * temp = gsl_matrix_alloc(2, A->size2);
@@ -278,22 +280,22 @@ gsl_matrix * HadamardProduct(gsl_matrix * A, int N1, int N2){
     for(int j=0; j<(A->size2); j++){
       gsl_matrix_set(temp, 1, j, gsl_matrix_get(A, N1, j) - gsl_matrix_get(A, N1+1, j));
     }
-
     return temp;
   }
-  int half = (N1+N2)/2;
-  gsl_matrix * temp1 = HadamardProduct(A, N1, half+1);
+  int half = (N1+N2)/2, h1 = (N2-N1)/2;
+  //printf("%d %d %d\n", N1, N2, half);
+  gsl_matrix * temp1 = HadamardProduct(A, N1, half);
   gsl_matrix * temp2 = HadamardProduct(A, half+1, N2);
-
+  //printf("Success\n");
   gsl_matrix * temp = gsl_matrix_alloc(N2-N1+1, A->size2);
-  for(int i=0; i<=half; i++){
+  for(int i=0; i<=h1; i++){
     for(int j=0; j< (A->size2); j++){
       gsl_matrix_set(temp, i, j, gsl_matrix_get(temp1, i, j) + gsl_matrix_get(temp2, i, j));
     }
   }
-  for(int i=half + 1; i<(N2-N1+1); i++){
+  for(int i=h1 + 1; i<(N2-N1+1); i++){
     for(int j=0; j< (A->size2); j++){
-      gsl_matrix_set(temp, i, j, gsl_matrix_get(temp1, i, j) - gsl_matrix_get(temp2, i, j));
+      gsl_matrix_set(temp, i, j, gsl_matrix_get(temp1, i-h1 -1, j) - gsl_matrix_get(temp2, i-h1-1, j));
     }
   }
 
@@ -303,16 +305,27 @@ gsl_matrix * HadamardProduct(gsl_matrix * A, int N1, int N2){
   return temp;
 }
 
-gsl_matrix * Subsampled(gsl_matrix * HDA, int k){
+gsl_vector * sampling_matrix(int k, int N){
+  gsl_vector * P = gsl_vector_alloc(k);
+  int l;
+  for(int i=0; i<k; i++){
+    l = rand() % N;
+    gsl_vector_set(P, i, l);
+  }
+  return P;
+}
+
+gsl_matrix * Subsampled(gsl_matrix * HDA, gsl_vector * P){
+  int k = P->size;
   gsl_matrix * PHDA = gsl_matrix_alloc(k, HDA->size2);
   gsl_vector * temp = gsl_vector_alloc(HDA->size2);
   int l, flag;
   for(int i=0; i<k; i++){
-    l = rand() % (HDA->size1);
-    flag = gsl_matrix_get_col(temp, HDA, l);
+    l = gsl_vector_get(P, i);
+    flag = gsl_matrix_get_row(temp, HDA, l);
     if (flag==1)
       printf("Error!!: Unable to copy column from matrix; fn: Subsampled\n");
-    flag = gsl_matrix_set_col(PHDA, l, temp);
+    flag = gsl_matrix_set_row(PHDA, i, temp);
     if (flag==1)
       printf("Error!!: Unable to copy column to matrix; fn: Subsampled\n");
   }
@@ -321,13 +334,25 @@ gsl_matrix * Subsampled(gsl_matrix * HDA, int k){
   return PHDA;
 }
 
-gsl_matrix * SRHT(gsl_matrix * A, gsl_matrix * B, gsl_matrix * C, int k){
-  gsl_matrix * X = gsl_matrix_calloc(B->size2, A->size2);
+gsl_matrix * SRHT(int k, gsl_matrix * A1, gsl_matrix * B1, gsl_matrix * C1){
+  gsl_vector * D1 = Random_Diagonal(A1->size1);
+  gsl_vector * D2 = Random_Diagonal(B1->size1);
 
-  gsl_vector * D1 = Random_Diagonal(A->size1);
-  gsl_vector * D2 = Random_Diagonal(B->size1);
-
+  gsl_matrix * A = gsl_matrix_alloc(A1->size1, A1->size2);
+  gsl_matrix * B = gsl_matrix_alloc(B1->size1, B1->size2);
+  gsl_matrix * C = gsl_matrix_alloc(C1->size1, C1->size2);
   int flag;
+
+  flag = gsl_matrix_memcpy(A, A1);
+  if (flag==1)
+    printf("Error!!: Unable to copy matrix entries, fn:SRHT\n");
+  flag = gsl_matrix_memcpy(B, B1);
+  if (flag==1)
+    printf("Error!!: Unable to copy matrix entries, fn:SRHT\n");
+  flag = gsl_matrix_memcpy(C, C1);
+  if (flag==1)
+    printf("Error!!: Unable to copy matrix entries, fn:SRHT\n");
+
   flag = matrix_diagonal_product(D1, A, 1);
   if (flag==1)
     printf("Error!!: Issues in matrix multiplication of D1 and A\n");
@@ -339,53 +364,92 @@ gsl_matrix * SRHT(gsl_matrix * A, gsl_matrix * B, gsl_matrix * C, int k){
   flag = matrix_diagonal_product(D2, C, 1);
   if (flag==1)
     printf("Error!!: Issues in matrix multiplication of D2 and C\n");
-
-  flag = matrix_diagonal_product(D1, C, 2);
-  if (flag==1)
-    printf("Error!!: Issues in matrix multiplication of D1 and C\n");
-
-  gsl_matrix * HDA = HadamardProduct(A, 0, A->size1);
-  //gsl_matrix * PHDA = Subsampled(HDA, k);
-  print_matrix(HDA);
+  //printf("E1\n");
+  gsl_matrix * HDA = HadamardProduct(A, 0, A->size1 - 1);
+  //printf("E1a\n");
+  gsl_vector * P1 = sampling_matrix(k, A->size1);
+  //printf("E1b\n");
+  gsl_matrix * PHDA = Subsampled(HDA, P1);
   gsl_matrix_free(HDA);
+  //printf("E2\n");
 
-  gsl_matrix * HDB = HadamardProduct(B, 0, B->size1);
-  //gsl_matrix * PHDB = Subsampled(HDB, k);
-  print_matrix(HDB);
+  gsl_matrix * HDB = HadamardProduct(B, 0, B->size1-1);
+  gsl_vector * P2 = sampling_matrix(k, B->size1);
+  gsl_matrix * PHDB = Subsampled(HDB, P2);
   gsl_matrix_free(HDB);
+  //printf("E3\n");
+
+  gsl_matrix * HDC = HadamardProduct(C, 0, C->size1-1);
+  gsl_matrix * PHDC = Subsampled(HDC, P2);
+  gsl_matrix_free(HDC);
+  gsl_matrix * PHDC_T = transpose(PHDC);
+  gsl_matrix_free(PHDC);
+  //printf("E4\n");
+  flag = matrix_diagonal_product(D1, PHDC_T, 1);
+  if (flag==1)
+    printf("Error!!: Issues in matrix multiplication of D1 and PHDC_T; fn:SRHT:\n");
+  gsl_matrix * HD_PHDC_T = HadamardProduct(PHDC_T, 0, PHDC_T->size1-1);
+  gsl_matrix_free(PHDC_T);
+  gsl_matrix * PHD_PHDC_T = Subsampled(HD_PHDC_T, P1);
+  gsl_matrix_free(HD_PHDC_T);
+  gsl_matrix * RCS_T = transpose(PHD_PHDC_T);
+  gsl_matrix_free(PHD_PHDC_T);
+  //printf("E5\n");
+  gsl_matrix * X = Solve(PHDB, PHDA, RCS_T);
+  //printf("E6\n");
+
+  gsl_matrix_free(A);
+  gsl_matrix_free(B);
+  gsl_matrix_free(C);
 
   gsl_vector_free(D1);
   gsl_vector_free(D2);
+  gsl_vector_free(P1);
+  gsl_vector_free(P2);
+
   return X;
 }
 
 int main (void){
   //int m_arr[10] = {128, 256, 512, 1024, 2048, 4096, 8192, 16384, 32786, 65536};
   //int d_arr[7] = {5, 10, 25, 50, 75, 100, 125};
-  int m_arr[2] = {8, 16};
-  int d_arr[2] = {2, 3};
+  int m_arr[6] = {128, 256, 512, 1024};
+  int d_arr[4] = {16, 32, 64, 128};
   int m, d;
-  double err=0, err1;
-  for(int i1=0; i1<2; i1++){
-    m = 8;
-    for(int j1=0; j1<2; j1++){
-      d = 3;
+  double err=0, err1, tick_sec = sysconf(_SC_CLK_TCK);
+  printf("The clock Tick rate is %lf\n", tick_sec);
+  for(int i1=0; i1<4; i1++){
+    m = m_arr[i1];
+    for(int j1=0; j1<4; j1++){
+      d = d_arr[j1];
 
       gsl_matrix * A = Generate_Matrix(m, d);
       gsl_matrix * B = Generate_Matrix(m, d);
       gsl_matrix * C = Generate_Matrix(m, m);
+      struct tms  start, end;
 
+
+      times(&start);
       gsl_matrix * X_true = Solve(B, A, C);
-
+      times(&end);
+      clock_t usr_time = end.tms_utime - start.tms_utime;
+      clock_t sys_time = end.tms_stime - start.tms_stime;
+      //cpu_time_used = ((double) (end - start)) / CLOCKS_PER_SEC;
       err = Error(B, X_true, A, C);
-      printf("Error for exact solution is %lf\n", err);
+      printf("Error for exact solution is %lf and time taken is %lf ms\n", err, 1000*(usr_time + sys_time)/tick_sec);
 
       double Cons = 1.0, eps = 0.9, delta = 0.99;
       int k = (int)Cons*(d/(eps*eps))*log(d/delta)*log((d*m)/delta);
-      gsl_matrix * X_approx = SRHT(A, B, C, k);
-
+      printf("m: %d d: %d, k: %d\n",m,d,k);
+      struct tms  start1, end1;
+      times(&start1);
+      gsl_matrix * X_approx = SRHT(k, A, B, C); //gsl_matrix_alloc(m, d);//
+      times(&end1);
+      clock_t usr_time1 = end1.tms_utime - start1.tms_utime;
+      clock_t sys_time1 = end1.tms_stime - start1.tms_stime;
+      //cpu_time_used = ((double) (end - start)) / CLOCKS_PER_SEC;
       err1 = Error(B, X_approx, A, C);
-      printf("Error for approximate solution is %lf\n", err1);
+      printf("Error for approximate solution is %lf and time taken is %lf ms\n", err1, 1000*(usr_time1 + sys_time1)/tick_sec);
 
       gsl_matrix_free(A);
       gsl_matrix_free(B);
