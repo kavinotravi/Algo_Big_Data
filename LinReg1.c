@@ -413,15 +413,19 @@ gsl_matrix * SRHT(int k, gsl_matrix * A1, gsl_matrix * B1, gsl_matrix * C1){
 int main (void){
   //int m_arr[10] = {128, 256, 512, 1024, 2048, 4096, 8192, 16384, 32786, 65536};
   //int d_arr[7] = {5, 10, 25, 50, 75, 100, 125};
-  int m_arr[6] = {128, 256, 512, 1024};
-  int d_arr[4] = {16, 32, 64, 128};
-  int m, d;
+  int m_arr[6] = {256, 512, 1024, 2048, 4096};
+  int m, d, jump;
   double err=0, err1, tick_sec = sysconf(_SC_CLK_TCK);
+  filename = "output.csv";
+  FILE * fp;
+  fp = fopen(filename, "w+");
+  fprintf(fp, "M, N, K, iter, error, time");
   printf("The clock Tick rate is %lf\n", tick_sec);
-  for(int i1=0; i1<4; i1++){
+  for(int i1=0; i1<6; i1++){
     m = m_arr[i1];
-    for(int j1=0; j1<4; j1++){
-      d = d_arr[j1];
+    jump = (((m/10) - sqrt(m))/5);
+    for(int j1=sqrt(m); j1<(m/10); j1+=jump){
+      d = j1;
 
       gsl_matrix * A = Generate_Matrix(m, d);
       gsl_matrix * B = Generate_Matrix(m, d);
@@ -438,24 +442,29 @@ int main (void){
       err = Error(B, X_true, A, C);
       printf("Error for exact solution is %lf and time taken is %lf ms\n", err, 1000*(usr_time + sys_time)/tick_sec);
 
-      double Cons = 1.0, eps = 0.9, delta = 0.99;
-      int k = (int)Cons*(d/(eps*eps))*log(d/delta)*log((d*m)/delta);
-      printf("m: %d d: %d, k: %d\n",m,d,k);
-      struct tms  start1, end1;
-      times(&start1);
-      gsl_matrix * X_approx = SRHT(k, A, B, C); //gsl_matrix_alloc(m, d);//
-      times(&end1);
-      clock_t usr_time1 = end1.tms_utime - start1.tms_utime;
-      clock_t sys_time1 = end1.tms_stime - start1.tms_stime;
-      //cpu_time_used = ((double) (end - start)) / CLOCKS_PER_SEC;
-      err1 = Error(B, X_approx, A, C);
-      printf("Error for approximate solution is %lf and time taken is %lf ms\n", err1, 1000*(usr_time1 + sys_time1)/tick_sec);
-
+      int inc = (int)(0.05*m);
+      printf("%d\n", inc);
+      //int k = (int)Cons*(d/(eps*eps))*log(d/delta)*log((d*m)/delta);
+      for(int k=d; k<=(8*inc+d); k+=inc){
+        for(int no=0; no<20; no++){
+          printf("m: %d d: %d, k: %d\n",m,d,k);
+          struct tms  start1, end1;
+          times(&start1);
+          gsl_matrix * X_approx = SRHT(k, A, B, C); //gsl_matrix_alloc(m, d);//
+          times(&end1);
+          clock_t usr_time1 = end1.tms_utime - start1.tms_utime;
+          clock_t sys_time1 = end1.tms_stime - start1.tms_stime;
+          //cpu_time_used = ((double) (end - start)) / CLOCKS_PER_SEC;
+          err1 = Error(B, X_approx, A, C);
+          printf("Error for approximate solution is %lf and time taken is %lf ms\n", err1, 1000*(usr_time1 + sys_time1)/tick_sec);
+          gsl_matrix_free(X_approx);
+        }
+      }
       gsl_matrix_free(A);
       gsl_matrix_free(B);
       gsl_matrix_free(C);
       gsl_matrix_free(X_true);
-      gsl_matrix_free(X_approx);
+
       printf("\n");
     }
 
