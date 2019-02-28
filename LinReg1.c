@@ -413,14 +413,14 @@ gsl_matrix * SRHT(int k, gsl_matrix * A1, gsl_matrix * B1, gsl_matrix * C1){
 int main (void){
   //int m_arr[10] = {128, 256, 512, 1024, 2048, 4096, 8192, 16384, 32786, 65536};
   //int d_arr[7] = {5, 10, 25, 50, 75, 100, 125};
-  int m_arr[6] = {256, 512, 1024, 2048, 4096};
+  int m_arr[6] = {256, 512, 1024, 2048, 4096, 8192};
   int m, d, jump;
   double err=0, err1, tick_sec = sysconf(_SC_CLK_TCK);
-  filename = "output.csv";
+  //filename = "output.csv";
   FILE * fp;
-  fp = fopen(filename, "w+");
-  fprintf(fp, "M, N, K, iter, error, time");
-  printf("The clock Tick rate is %lf\n", tick_sec);
+  fp = fopen("output.csv", "w+");
+  fprintf(fp, "M, N, K, iter, error, time\n"); //K=-1 and iter = 0 means exact solution
+  //printf("The clock Tick rate is %lf\n", tick_sec);
   for(int i1=0; i1<6; i1++){
     m = m_arr[i1];
     jump = (((m/10) - sqrt(m))/5);
@@ -432,7 +432,6 @@ int main (void){
       gsl_matrix * C = Generate_Matrix(m, m);
       struct tms  start, end;
 
-
       times(&start);
       gsl_matrix * X_true = Solve(B, A, C);
       times(&end);
@@ -440,14 +439,14 @@ int main (void){
       clock_t sys_time = end.tms_stime - start.tms_stime;
       //cpu_time_used = ((double) (end - start)) / CLOCKS_PER_SEC;
       err = Error(B, X_true, A, C);
-      printf("Error for exact solution is %lf and time taken is %lf ms\n", err, 1000*(usr_time + sys_time)/tick_sec);
-
+      //printf("Error for exact solution is %lf and time taken is %lf ms\n", err, 1000*(usr_time + sys_time)/tick_sec);
+      fprintf(fp, "%d, %d, -1, 0, %lf, %lf\n", m, d, err, 1000*(usr_time + sys_time)/tick_sec);
       int inc = (int)(0.05*m);
-      printf("%d\n", inc);
+      //printf("%d\n", inc);
       //int k = (int)Cons*(d/(eps*eps))*log(d/delta)*log((d*m)/delta);
       for(int k=d; k<=(8*inc+d); k+=inc){
         for(int no=0; no<20; no++){
-          printf("m: %d d: %d, k: %d\n",m,d,k);
+          //printf("m: %d d: %d, k: %d\n",m,d,k);
           struct tms  start1, end1;
           times(&start1);
           gsl_matrix * X_approx = SRHT(k, A, B, C); //gsl_matrix_alloc(m, d);//
@@ -456,7 +455,8 @@ int main (void){
           clock_t sys_time1 = end1.tms_stime - start1.tms_stime;
           //cpu_time_used = ((double) (end - start)) / CLOCKS_PER_SEC;
           err1 = Error(B, X_approx, A, C);
-          printf("Error for approximate solution is %lf and time taken is %lf ms\n", err1, 1000*(usr_time1 + sys_time1)/tick_sec);
+          fprintf(fp, "%d, %d, %d, %d, %lf, %lf\n", m, d, k, no+1, err1, 1000*(usr_time1 + sys_time1)/tick_sec);
+          //printf("Error for approximate solution is %lf and time taken is %lf ms\n", err1, 1000*(usr_time1 + sys_time1)/tick_sec);
           gsl_matrix_free(X_approx);
         }
       }
@@ -465,9 +465,10 @@ int main (void){
       gsl_matrix_free(C);
       gsl_matrix_free(X_true);
 
-      printf("\n");
+
     }
 
   }
+  printf("Output written to output.csv\n");
   return 0;
 }
