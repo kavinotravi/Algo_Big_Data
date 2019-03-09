@@ -1,0 +1,1288 @@
+top - 15:53:52 up  5:53,  1 user,  load average: 0.66, 0.33, 0.61
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 24.5 us,  3.7 sy,  0.1 ni, 68.8 id,  2.8 wa,  0.0 hi,  0.1 si,  0.0 st
+KiB Mem :  8065668 total,  5245780 free,  2111912 used,   707976 buff/cache
+KiB Swap:  8203260 total,  7441148 free,   762112 used.  5580180 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0   18184  17876   1092 R 100.0  0.2   0:22.56 a.out
+
+top - 15:54:02 up  5:53,  1 user,  load average: 0.71, 0.35, 0.61
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 26.1 us,  1.3 sy,  0.0 ni, 72.1 id,  0.5 wa,  0.0 hi,  0.1 si,  0.0 st
+KiB Mem :  8065668 total,  5285888 free,  2072936 used,   706844 buff/cache
+KiB Swap:  8203260 total,  7441148 free,   762112 used.  5620368 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0   32168  31532   1092 R 100.0  0.4   0:32.57 a.out
+
+top - 15:54:12 up  5:53,  1 user,  load average: 0.75, 0.37, 0.62
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 26.0 us,  1.4 sy,  0.0 ni, 71.3 id,  1.3 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  8065668 total,  5249208 free,  2108372 used,   708088 buff/cache
+KiB Swap:  8203260 total,  7441148 free,   762112 used.  5583884 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0   49856  49392   1092 R 100.0  0.6   0:42.58 a.out
+
+top - 15:54:22 up  5:53,  1 user,  load average: 1.11, 0.46, 0.64
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 30.6 us,  1.9 sy,  0.0 ni, 65.9 id,  1.5 wa,  0.0 hi,  0.1 si,  0.0 st
+KiB Mem :  8065668 total,  5222288 free,  2132504 used,   710876 buff/cache
+KiB Swap:  8203260 total,  7441148 free,   762112 used.  5557988 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0   74300  73560   1092 R 100.0  0.9   0:52.58 a.out
+
+top - 15:54:32 up  5:54,  1 user,  load average: 1.26, 0.51, 0.66
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 28.6 us,  1.4 sy,  0.0 ni, 68.7 id,  1.2 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  8065668 total,  5200936 free,  2154660 used,   710072 buff/cache
+KiB Swap:  8203260 total,  7441148 free,   762112 used.  5536676 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0  104004 103504   1092 R 100.0  1.3   1:02.59 a.out
+
+top - 15:54:42 up  5:54,  1 user,  load average: 1.22, 0.53, 0.66
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 26.0 us,  1.0 sy,  0.0 ni, 72.6 id,  0.4 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  8065668 total,  5148940 free,  2206816 used,   709912 buff/cache
+KiB Swap:  8203260 total,  7441148 free,   762112 used.  5484748 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0  139940 139632   1092 R 100.0  1.7   1:12.60 a.out
+
+top - 15:54:52 up  5:54,  1 user,  load average: 1.18, 0.55, 0.66
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 25.8 us,  0.9 sy,  0.0 ni, 71.6 id,  1.8 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  8065668 total,  5106132 free,  2251592 used,   707944 buff/cache
+KiB Swap:  8203260 total,  7441148 free,   762112 used.  5442072 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0  185536 184864   1092 R 100.0  2.3   1:22.61 a.out
+
+top - 15:55:02 up  5:54,  1 user,  load average: 1.15, 0.56, 0.67
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 25.6 us,  1.0 sy,  0.0 ni, 73.2 id,  0.2 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  8065668 total,  5054008 free,  2303704 used,   707956 buff/cache
+KiB Swap:  8203260 total,  7441148 free,   762112 used.  5389992 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0  237508 237200   1092 R 100.0  2.9   1:32.62 a.out
+
+top - 15:55:12 up  5:54,  1 user,  load average: 1.13, 0.58, 0.67
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 25.4 us,  0.7 sy,  0.0 ni, 73.8 id,  0.1 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  8065668 total,  4999884 free,  2357788 used,   707996 buff/cache
+KiB Swap:  8203260 total,  7441148 free,   762112 used.  5335908 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0  295996 295296   1092 R 100.0  3.7   1:42.63 a.out
+
+top - 15:55:22 up  5:54,  1 user,  load average: 1.18, 0.61, 0.68
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 26.6 us,  1.6 sy,  0.1 ni, 71.6 id,  0.2 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  8065668 total,  4940152 free,  2417056 used,   708460 buff/cache
+KiB Swap:  8203260 total,  7441148 free,   762112 used.  5276212 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0  360492 360044   1092 R  99.9  4.5   1:52.63 a.out
+
+top - 15:55:32 up  5:55,  1 user,  load average: 1.15, 0.62, 0.68
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 25.3 us,  0.6 sy,  0.0 ni, 73.8 id,  0.2 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  8065668 total,  4860348 free,  2497244 used,   708076 buff/cache
+KiB Swap:  8203260 total,  7441148 free,   762112 used.  5196452 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0  435200 434668   1092 R 100.0  5.4   2:02.64 a.out
+
+top - 15:55:42 up  5:55,  1 user,  load average: 1.13, 0.63, 0.69
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 25.5 us,  0.8 sy,  0.0 ni, 73.7 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  8065668 total,  4773360 free,  2583140 used,   709168 buff/cache
+KiB Swap:  8203260 total,  7441148 free,   762112 used.  5109496 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0  515500 515004   1092 R 100.0  6.4   2:12.66 a.out
+
+top - 15:55:52 up  5:55,  1 user,  load average: 1.11, 0.65, 0.69
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 33.0 us,  2.5 sy,  0.0 ni, 62.7 id,  1.7 wa,  0.0 hi,  0.1 si,  0.0 st
+KiB Mem :  8065668 total,  4723768 free,  2629312 used,   712588 buff/cache
+KiB Swap:  8203260 total,  7441148 free,   762112 used.  5061348 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0  515440 515132   1092 R  99.9  6.4   2:22.66 a.out
+
+top - 15:56:02 up  5:55,  1 user,  load average: 1.09, 0.66, 0.70
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 31.8 us,  2.2 sy,  0.0 ni, 64.1 id,  1.9 wa,  0.0 hi,  0.1 si,  0.0 st
+KiB Mem :  8065668 total,  4741616 free,  2609908 used,   714144 buff/cache
+KiB Swap:  8203260 total,  7441148 free,   762112 used.  5079460 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0  520140 519832   1092 R 100.0  6.4   2:32.67 a.out
+
+top - 15:56:12 up  5:55,  1 user,  load average: 1.08, 0.67, 0.70
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 27.3 us,  1.3 sy,  0.0 ni, 70.5 id,  0.8 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  8065668 total,  4745924 free,  2609132 used,   710612 buff/cache
+KiB Swap:  8203260 total,  7441148 free,   762112 used.  5082520 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0  533032 532560   1092 R  99.9  6.6   2:42.67 a.out
+
+top - 15:56:22 up  5:55,  1 user,  load average: 1.07, 0.68, 0.70
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 29.2 us,  2.0 sy,  0.0 ni, 66.3 id,  2.4 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  8065668 total,  4705504 free,  2644268 used,   715896 buff/cache
+KiB Swap:  8203260 total,  7441148 free,   762112 used.  5042356 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0  550236 549764   1092 R 100.0  6.8   2:52.68 a.out
+
+top - 15:56:32 up  5:56,  1 user,  load average: 1.06, 0.69, 0.71
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 25.8 us,  0.9 sy,  0.0 ni, 72.2 id,  1.2 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  8065668 total,  4712788 free,  2642132 used,   710748 buff/cache
+KiB Swap:  8203260 total,  7441148 free,   762112 used.  5049704 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0  575452 574828   1092 R  99.9  7.1   3:02.68 a.out
+
+top - 15:56:42 up  5:56,  1 user,  load average: 1.05, 0.70, 0.71
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 25.9 us,  0.9 sy,  0.0 ni, 73.0 id,  0.2 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  8065668 total,  4677296 free,  2677144 used,   711228 buff/cache
+KiB Swap:  8203260 total,  7441148 free,   762112 used.  5014256 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0  605964 605460   1092 R 100.0  7.5   3:12.69 a.out
+
+top - 15:56:52 up  5:56,  1 user,  load average: 1.04, 0.71, 0.72
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 26.1 us,  0.9 sy,  0.1 ni, 72.5 id,  0.4 wa,  0.0 hi,  0.1 si,  0.0 st
+KiB Mem :  8065668 total,  4631960 free,  2722524 used,   711184 buff/cache
+KiB Swap:  8203260 total,  7441148 free,   762112 used.  4968972 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0  642568 641952   1092 R 100.0  8.0   3:22.70 a.out
+
+top - 15:57:02 up  5:56,  1 user,  load average: 1.03, 0.72, 0.72
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 30.7 us,  1.9 sy,  0.1 ni, 66.9 id,  0.3 wa,  0.0 hi,  0.1 si,  0.0 st
+KiB Mem :  8065668 total,  4579392 free,  2769896 used,   716380 buff/cache
+KiB Swap:  8203260 total,  7441148 free,   762112 used.  4916464 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0  685452 684836   1092 R 100.0  8.5   3:32.71 a.out
+
+top - 15:57:12 up  5:56,  1 user,  load average: 1.03, 0.73, 0.72
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 34.5 us,  1.9 sy,  0.1 ni, 63.2 id,  0.3 wa,  0.0 hi,  0.1 si,  0.0 st
+KiB Mem :  8065668 total,  4537844 free,  2815784 used,   712040 buff/cache
+KiB Swap:  8203260 total,  7441148 free,   762112 used.  4874960 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0  732216 731772   1092 R  99.9  9.1   3:42.71 a.out
+
+top - 15:57:22 up  5:56,  1 user,  load average: 1.02, 0.74, 0.73
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 28.6 us,  1.5 sy,  0.0 ni, 69.6 id,  0.2 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  8065668 total,  4486252 free,  2867904 used,   711512 buff/cache
+KiB Swap:  8203260 total,  7441148 free,   762112 used.  4823424 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0  785892 785228   1092 R 100.0  9.7   3:52.71 a.out
+
+top - 15:57:32 up  5:57,  1 user,  load average: 1.02, 0.75, 0.73
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 26.5 us,  1.0 sy,  0.0 ni, 71.8 id,  0.6 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  8065668 total,  4410780 free,  2943488 used,   711400 buff/cache
+KiB Swap:  8203260 total,  7441148 free,   762112 used.  4748004 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0  850540 850088   1092 R  99.9 10.5   4:02.71 a.out
+
+top - 15:57:43 up  5:57,  1 user,  load average: 1.02, 0.76, 0.73
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 27.7 us,  1.3 sy,  0.0 ni, 70.7 id,  0.3 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  8065668 total,  4334412 free,  3019348 used,   711908 buff/cache
+KiB Swap:  8203260 total,  7441148 free,   762112 used.  4671684 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0  918768 918268   1092 R  99.8 11.4   4:12.70 a.out
+
+top - 15:57:53 up  5:57,  1 user,  load average: 1.01, 0.77, 0.74
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 27.7 us,  1.5 sy,  0.0 ni, 70.5 id,  0.2 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  8065668 total,  4252068 free,  3100980 used,   712620 buff/cache
+KiB Swap:  8203260 total,  7441148 free,   762112 used.  4589376 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0  995608 995108   1092 R 100.0 12.3   4:22.71 a.out
+
+top - 15:58:03 up  5:57,  1 user,  load average: 1.01, 0.78, 0.74
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 25.0 us,  0.7 sy,  0.0 ni, 74.1 id,  0.1 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  8065668 total,  4214924 free,  3139548 used,   711196 buff/cache
+KiB Swap:  8203260 total,  7441148 free,   762112 used.  4552268 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0 1031588 0.984g   1092 R  99.9 12.8   4:32.71 a.out
+
+top - 15:58:13 up  5:57,  1 user,  load average: 1.01, 0.78, 0.74
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 25.3 us,  0.9 sy,  0.0 ni, 73.6 id,  0.3 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  8065668 total,  4209932 free,  3145128 used,   710608 buff/cache
+KiB Swap:  8203260 total,  7441148 free,   762112 used.  4547328 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0 1038608 0.990g   1092 R  99.9 12.9   4:42.71 a.out
+
+top - 15:58:23 up  5:57,  1 user,  load average: 1.01, 0.79, 0.75
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 29.9 us,  1.8 sy,  0.0 ni, 67.7 id,  0.6 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  8065668 total,  4215104 free,  3137080 used,   713484 buff/cache
+KiB Swap:  8203260 total,  7441148 free,   762112 used.  4552604 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0 1049844 1.001g   1092 R  99.9 13.0   4:52.71 a.out
+
+top - 15:58:33 up  5:58,  1 user,  load average: 1.00, 0.80, 0.75
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 27.0 us,  1.3 sy,  0.0 ni, 70.8 id,  0.9 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  8065668 total,  4198164 free,  3153716 used,   713788 buff/cache
+KiB Swap:  8203260 total,  7441148 free,   762112 used.  4535712 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0 1066436 1.017g   1092 R 100.0 13.2   5:02.72 a.out
+
+top - 15:58:43 up  5:58,  1 user,  load average: 1.30, 0.87, 0.77
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 35.7 us,  2.5 sy,  0.0 ni, 59.8 id,  1.9 wa,  0.0 hi,  0.1 si,  0.0 st
+KiB Mem :  8065668 total,  4093424 free,  3258864 used,   713380 buff/cache
+KiB Swap:  8203260 total,  7441148 free,   762112 used.  4431688 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0 1085852 1.035g   1092 R 100.0 13.5   5:12.72 a.out
+
+top - 15:58:53 up  5:58,  1 user,  load average: 1.62, 0.96, 0.80
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 27.0 us,  0.8 sy,  0.0 ni, 69.0 id,  3.2 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  8065668 total,  4071432 free,  3281464 used,   712772 buff/cache
+KiB Swap:  8203260 total,  7441148 free,   762112 used.  4409796 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0 1112056 1.060g   1092 R 100.0 13.8   5:22.74 a.out
+
+top - 15:59:03 up  5:58,  1 user,  load average: 1.53, 0.96, 0.81
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 29.4 us,  1.6 sy,  0.0 ni, 67.9 id,  1.1 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  8065668 total,  4041780 free,  3302256 used,   721632 buff/cache
+KiB Swap:  8203260 total,  7441148 free,   762112 used.  4383212 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0 1145900 1.092g   1092 R  99.9 14.2   5:32.74 a.out
+
+top - 15:59:13 up  5:58,  1 user,  load average: 1.44, 0.96, 0.81
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 26.7 us,  1.1 sy,  0.0 ni, 70.3 id,  1.9 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  8065668 total,  4029852 free,  3319200 used,   716616 buff/cache
+KiB Swap:  8203260 total,  7441148 free,   762112 used.  4371276 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0 1183380 1.128g   1092 R  99.7 14.7   5:42.72 a.out
+
+top - 15:59:23 up  5:58,  1 user,  load average: 1.45, 0.98, 0.82
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 27.1 us,  1.5 sy,  0.1 ni, 60.0 id, 11.4 wa,  0.0 hi,  0.1 si,  0.0 st
+KiB Mem :  8065668 total,  3955432 free,  3389288 used,   720948 buff/cache
+KiB Swap:  8203260 total,  7446780 free,   756480 used.  4296936 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0 1226600 1.169g   1092 R  99.8 15.2   5:52.70 a.out
+
+top - 15:59:33 up  5:59,  1 user,  load average: 1.38, 0.98, 0.82
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 27.0 us,  1.5 sy,  0.0 ni, 70.8 id,  0.7 wa,  0.0 hi,  0.1 si,  0.0 st
+KiB Mem :  8065668 total,  3907068 free,  3438836 used,   719764 buff/cache
+KiB Swap:  8203260 total,  7446780 free,   756480 used.  4248616 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0 1277764 1.218g   1092 R 100.0 15.8   6:02.71 a.out
+
+top - 15:59:43 up  5:59,  1 user,  load average: 1.32, 0.98, 0.82
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 27.5 us,  1.2 sy,  0.0 ni, 70.8 id,  0.4 wa,  0.0 hi,  0.1 si,  0.0 st
+KiB Mem :  8065668 total,  3875772 free,  3473164 used,   716732 buff/cache
+KiB Swap:  8203260 total,  7446780 free,   756480 used.  4217364 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0 1332636 1.270g   1092 R  99.9 16.5   6:12.71 a.out
+
+top - 15:59:53 up  5:59,  1 user,  load average: 1.27, 0.98, 0.82
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 28.1 us,  1.5 sy,  0.0 ni, 70.0 id,  0.3 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  8065668 total,  3772856 free,  3567096 used,   725716 buff/cache
+KiB Swap:  8203260 total,  7446780 free,   756480 used.  4114600 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0 1396996 1.332g   1092 R 100.0 17.3   6:22.73 a.out
+
+top - 16:00:03 up  5:59,  1 user,  load average: 1.30, 1.00, 0.83
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 33.1 us,  2.2 sy,  0.0 ni, 63.2 id,  1.5 wa,  0.0 hi,  0.1 si,  0.0 st
+KiB Mem :  8065668 total,  3740100 free,  3603368 used,   722200 buff/cache
+KiB Swap:  8203260 total,  7447036 free,   756224 used.  4082040 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0 1461840 1.394g   1092 R  99.5 18.1   6:32.69 a.out
+
+top - 16:00:13 up  5:59,  1 user,  load average: 1.26, 1.00, 0.83
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 28.8 us,  1.5 sy,  0.0 ni, 68.8 id,  0.9 wa,  0.0 hi,  0.1 si,  0.0 st
+KiB Mem :  8065668 total,  3679816 free,  3666440 used,   719412 buff/cache
+KiB Swap:  8203260 total,  7447036 free,   756224 used.  4021820 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0 1537032 1.465g   1092 R 100.0 19.1   6:42.70 a.out
+
+top - 16:00:23 up  5:59,  1 user,  load average: 1.30, 1.02, 0.84
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 33.8 us,  2.1 sy,  0.0 ni, 62.0 id,  2.1 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  8065668 total,  3577548 free,  3764404 used,   723716 buff/cache
+KiB Swap:  8203260 total,  7447036 free,   756224 used.  3921112 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0 1575060 1.502g   1092 R 100.0 19.5   6:52.71 a.out
+
+top - 16:00:33 up  6:00,  1 user,  load average: 1.33, 1.03, 0.85
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 36.2 us,  2.8 sy,  0.0 ni, 59.8 id,  1.1 wa,  0.0 hi,  0.1 si,  0.0 st
+KiB Mem :  8065668 total,  3580640 free,  3758320 used,   726708 buff/cache
+KiB Swap:  8203260 total,  7447036 free,   756224 used.  3924316 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0 1581256 1.507g   1092 R 100.0 19.6   7:02.72 a.out
+
+top - 16:00:43 up  6:00,  1 user,  load average: 1.43, 1.06, 0.86
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 31.0 us,  2.6 sy,  0.0 ni, 65.1 id,  1.3 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  8065668 total,  3577836 free,  3764536 used,   723296 buff/cache
+KiB Swap:  8203260 total,  7447036 free,   756224 used.  3921864 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0 1592120 1.518g   1092 R 100.0 19.7   7:12.72 a.out
+
+top - 16:00:53 up  6:00,  1 user,  load average: 1.61, 1.11, 0.88
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 27.5 us,  1.1 sy,  0.0 ni, 69.9 id,  1.5 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  8065668 total,  3571040 free,  3769108 used,   725520 buff/cache
+KiB Swap:  8203260 total,  7447036 free,   756224 used.  3915160 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0 1606964 1.532g   1092 R 100.0 19.9   7:22.73 a.out
+
+top - 16:01:03 up  6:00,  1 user,  load average: 1.51, 1.11, 0.88
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 27.3 us,  0.9 sy,  0.0 ni, 71.6 id,  0.1 wa,  0.0 hi,  0.1 si,  0.0 st
+KiB Mem :  8065668 total,  3550348 free,  3792352 used,   722968 buff/cache
+KiB Swap:  8203260 total,  7447036 free,   756224 used.  3894496 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0 1625488 1.550g   1092 R  99.9 20.1   7:32.73 a.out
+
+top - 16:01:13 up  6:00,  1 user,  load average: 1.43, 1.10, 0.88
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 25.5 us,  0.6 sy,  0.0 ni, 73.5 id,  0.3 wa,  0.0 hi,  0.1 si,  0.0 st
+KiB Mem :  8065668 total,  3526624 free,  3816380 used,   722664 buff/cache
+KiB Swap:  8203260 total,  7447036 free,   756224 used.  3870812 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0 1652296 1.575g   1092 R  99.9 20.5   7:42.73 a.out
+
+top - 16:01:23 up  6:00,  1 user,  load average: 1.37, 1.10, 0.88
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 24.8 us,  0.5 sy,  0.0 ni, 74.4 id,  0.2 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  8065668 total,  3496052 free,  3847072 used,   722544 buff/cache
+KiB Swap:  8203260 total,  7447036 free,   756224 used.  3840280 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0 1683616 1.605g   1092 R  99.8 20.9   7:52.72 a.out
+
+top - 16:01:33 up  6:01,  1 user,  load average: 1.31, 1.10, 0.89
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 25.2 us,  0.7 sy,  0.0 ni, 74.0 id,  0.2 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  8065668 total,  3459968 free,  3883116 used,   722584 buff/cache
+KiB Swap:  8203260 total,  7447036 free,   756224 used.  3804236 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0 1719800 1.640g   1092 R  99.9 21.3   8:02.72 a.out
+
+top - 16:01:43 up  6:01,  1 user,  load average: 1.26, 1.09, 0.89
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 24.8 us,  0.7 sy,  0.0 ni, 74.3 id,  0.1 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  8065668 total,  3413844 free,  3929240 used,   722584 buff/cache
+KiB Swap:  8203260 total,  7447036 free,   756224 used.  3758144 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0 1764620 1.682g   1092 R 100.0 21.9   8:12.72 a.out
+
+top - 16:01:53 up  6:01,  1 user,  load average: 1.22, 1.09, 0.89
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 25.2 us,  0.3 sy,  0.0 ni, 74.3 id,  0.2 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  8065668 total,  3366352 free,  3976692 used,   722624 buff/cache
+KiB Swap:  8203260 total,  7447036 free,   756224 used.  3710692 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0 1812908 1.728g   1092 R 100.0 22.5   8:22.73 a.out
+
+top - 16:02:03 up  6:01,  1 user,  load average: 1.19, 1.08, 0.89
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 27.4 us,  1.4 sy,  0.0 ni, 70.8 id,  0.4 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  8065668 total,  3311408 free,  4027432 used,   726828 buff/cache
+KiB Swap:  8203260 total,  7447036 free,   756224 used.  3655836 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0 1867124 1.780g   1092 R 100.0 23.1   8:32.74 a.out
+
+top - 16:02:13 up  6:01,  1 user,  load average: 1.16, 1.08, 0.89
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 32.4 us,  2.2 sy,  0.0 ni, 63.7 id,  1.7 wa,  0.0 hi,  0.1 si,  0.0 st
+KiB Mem :  8065668 total,  3309956 free,  4035300 used,   720412 buff/cache
+KiB Swap:  8203260 total,  7447036 free,   756224 used.  3654884 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0 1925252 1.836g   1092 R  99.5 23.9   8:42.70 a.out
+
+top - 16:02:23 up  6:01,  1 user,  load average: 1.21, 1.10, 0.90
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 27.9 us,  1.4 sy,  0.0 ni, 67.3 id,  3.3 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  8065668 total,  3240704 free,  4104368 used,   720596 buff/cache
+KiB Swap:  8203260 total,  7447036 free,   756224 used.  3585904 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0 1989372 1.897g   1092 R  99.6 24.7   8:52.67 a.out
+
+top - 16:02:33 up  6:02,  1 user,  load average: 1.18, 1.09, 0.90
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 27.7 us,  1.2 sy,  0.0 ni, 69.4 id,  1.8 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  8065668 total,  3162584 free,  4182692 used,   720392 buff/cache
+KiB Swap:  8203260 total,  7447036 free,   756224 used.  3507860 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0 2063084 1.967g   1092 R  99.9 25.6   9:02.67 a.out
+
+top - 16:02:43 up  6:02,  1 user,  load average: 1.15, 1.09, 0.90
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 25.0 us,  0.6 sy,  0.0 ni, 74.0 id,  0.3 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  8065668 total,  3095684 free,  4249780 used,   720204 buff/cache
+KiB Swap:  8203260 total,  7447036 free,   756224 used.  3441000 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0 2137544 2.038g   1092 R 100.0 26.5   9:12.69 a.out
+
+top - 16:02:53 up  6:02,  1 user,  load average: 1.13, 1.08, 0.91
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 25.0 us,  0.6 sy,  0.0 ni, 73.8 id,  0.7 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  8065668 total,  3083828 free,  4261564 used,   720276 buff/cache
+KiB Swap:  8203260 total,  7447036 free,   756224 used.  3429220 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0 2143600 2.044g   1092 R  99.9 26.6   9:22.69 a.out
+
+top - 16:03:03 up  6:02,  1 user,  load average: 1.19, 1.10, 0.91
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 24.9 us,  0.6 sy,  0.0 ni, 74.0 id,  0.5 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  8065668 total,  3074600 free,  4270628 used,   720440 buff/cache
+KiB Swap:  8203260 total,  7447036 free,   756224 used.  3420156 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0 2152956 2.053g   1092 R 100.0 26.7   9:32.70 a.out
+
+top - 16:03:13 up  6:02,  1 user,  load average: 1.16, 1.10, 0.91
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 24.9 us,  0.5 sy,  0.0 ni, 74.5 id,  0.1 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  8065668 total,  3061264 free,  4284100 used,   720304 buff/cache
+KiB Swap:  8203260 total,  7447036 free,   756224 used.  3406852 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0 2164900 2.064g   1092 R 100.0 26.8   9:42.71 a.out
+
+top - 16:03:23 up  6:02,  1 user,  load average: 1.13, 1.09, 0.92
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 25.0 us,  0.7 sy,  0.0 ni, 74.1 id,  0.2 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  8065668 total,  3061512 free,  4283812 used,   720344 buff/cache
+KiB Swap:  8203260 total,  7447036 free,   756224 used.  3407136 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0 2183224 2.082g   1092 R  99.9 27.1   9:52.71 a.out
+
+top - 16:03:33 up  6:03,  1 user,  load average: 1.11, 1.09, 0.92
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 25.0 us,  0.5 sy,  0.0 ni, 74.3 id,  0.2 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  8065668 total,  3042072 free,  4303220 used,   720376 buff/cache
+KiB Swap:  8203260 total,  7447036 free,   756224 used.  3387732 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0 2204684 2.102g   1092 R  99.8 27.3  10:02.70 a.out
+
+top - 16:03:43 up  6:03,  1 user,  load average: 1.26, 1.12, 0.93
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 33.4 us,  1.7 sy,  0.0 ni, 59.4 id,  5.4 wa,  0.0 hi,  0.1 si,  0.0 st
+KiB Mem :  8065668 total,  2910568 free,  4430028 used,   725072 buff/cache
+KiB Swap:  8203260 total,  7447292 free,   755968 used.  3260588 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0 2229744 2.126g   1092 R  99.9 27.6  10:12.70 a.out
+
+top - 16:03:53 up  6:03,  1 user,  load average: 1.22, 1.11, 0.93
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 26.7 us,  0.8 sy,  0.0 ni, 70.1 id,  2.3 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  8065668 total,  2902108 free,  4436408 used,   727152 buff/cache
+KiB Swap:  8203260 total,  7447292 free,   755968 used.  3254172 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0 2261152 2.156g   1092 R  99.9 28.0  10:22.70 a.out
+
+top - 16:04:03 up  6:03,  1 user,  load average: 1.18, 1.11, 0.93
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 25.1 us,  0.5 sy,  0.0 ni, 73.9 id,  0.4 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  8065668 total,  2894448 free,  4443992 used,   727228 buff/cache
+KiB Swap:  8203260 total,  7447292 free,   755968 used.  3246624 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0 2295900 2.189g   1092 R 100.0 28.5  10:32.70 a.out
+
+top - 16:04:13 up  6:03,  1 user,  load average: 1.23, 1.12, 0.94
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 25.0 us,  0.6 sy,  0.0 ni, 73.3 id,  1.2 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  8065668 total,  2851024 free,  4487284 used,   727360 buff/cache
+KiB Swap:  8203260 total,  7447292 free,   755968 used.  3203248 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0 2339536 2.231g   1092 R  99.9 29.0  10:42.70 a.out
+
+top - 16:04:23 up  6:03,  1 user,  load average: 1.19, 1.12, 0.94
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 25.7 us,  0.9 sy,  0.0 ni, 73.2 id,  0.2 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  8065668 total,  2834160 free,  4504088 used,   727420 buff/cache
+KiB Swap:  8203260 total,  7447292 free,   755968 used.  3186412 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0 2384996 2.274g   1092 R  99.9 29.6  10:52.70 a.out
+
+top - 16:04:33 up  6:04,  1 user,  load average: 1.16, 1.11, 0.94
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 24.8 us,  0.5 sy,  0.0 ni, 74.3 id,  0.3 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  8065668 total,  2780172 free,  4558032 used,   727464 buff/cache
+KiB Swap:  8203260 total,  7447292 free,   755968 used.  3132468 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0 2437868 2.324g   1092 R  99.9 30.2  11:02.70 a.out
+
+top - 16:04:43 up  6:04,  1 user,  load average: 1.14, 1.11, 0.94
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 24.9 us,  0.6 sy,  0.0 ni, 74.4 id,  0.2 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  8065668 total,  2746452 free,  4591852 used,   727364 buff/cache
+KiB Swap:  8203260 total,  7447292 free,   755968 used.  3098776 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0 2495484 2.379g   1092 R 100.0 30.9  11:12.70 a.out
+
+top - 16:04:53 up  6:04,  1 user,  load average: 1.12, 1.11, 0.94
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 27.1 us,  1.4 sy,  0.0 ni, 71.2 id,  0.2 wa,  0.0 hi,  0.1 si,  0.0 st
+KiB Mem :  8065668 total,  2654484 free,  4683392 used,   727792 buff/cache
+KiB Swap:  8203260 total,  7447292 free,   755968 used.  3006936 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0 2557652 2.439g   1092 R  99.9 31.7  11:22.70 a.out
+
+top - 16:05:03 up  6:04,  1 user,  load average: 1.17, 1.12, 0.95
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 31.9 us,  2.1 sy,  0.0 ni, 64.2 id,  1.7 wa,  0.0 hi,  0.1 si,  0.0 st
+KiB Mem :  8065668 total,  2595180 free,  4743004 used,   727484 buff/cache
+KiB Swap:  8203260 total,  7447292 free,   755968 used.  2947988 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0 2622824 2.501g   1092 R 100.0 32.5  11:32.72 a.out
+
+top - 16:05:13 up  6:04,  1 user,  load average: 1.14, 1.11, 0.95
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 25.8 us,  0.9 sy,  0.0 ni, 71.9 id,  1.5 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  8065668 total,  2546720 free,  4792100 used,   726848 buff/cache
+KiB Swap:  8203260 total,  7447292 free,   755968 used.  2899472 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0 2695416 2.570g   1092 R  99.8 33.4  11:42.71 a.out
+
+top - 16:05:23 up  6:04,  1 user,  load average: 1.12, 1.11, 0.95
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 25.0 us,  0.6 sy,  0.0 ni, 72.6 id,  1.8 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  8065668 total,  2512380 free,  4826352 used,   726936 buff/cache
+KiB Swap:  8203260 total,  7447292 free,   755968 used.  2865220 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0 2727996 2.601g   1092 R  99.9 33.8  11:52.71 a.out
+
+top - 16:05:33 up  6:05,  1 user,  load average: 1.10, 1.11, 0.95
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 24.8 us,  0.5 sy,  0.0 ni, 74.1 id,  0.5 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  8065668 total,  2502836 free,  4835888 used,   726944 buff/cache
+KiB Swap:  8203260 total,  7447292 free,   755968 used.  2855716 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0 2735348 2.608g   1092 R  99.9 33.9  12:02.70 a.out
+
+top - 16:05:43 up  6:05,  1 user,  load average: 1.09, 1.10, 0.95
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 25.5 us,  0.7 sy,  0.0 ni, 73.4 id,  0.4 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  8065668 total,  2482472 free,  4856220 used,   726976 buff/cache
+KiB Swap:  8203260 total,  7447292 free,   755968 used.  2835384 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0 2747820 2.620g   1092 R 100.0 34.1  12:12.71 a.out
+
+top - 16:05:53 up  6:05,  1 user,  load average: 1.07, 1.10, 0.95
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 25.8 us,  0.7 sy,  0.0 ni, 73.3 id,  0.2 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  8065668 total,  2479428 free,  4859220 used,   727020 buff/cache
+KiB Swap:  8203260 total,  7447292 free,   755968 used.  2832384 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0 2763208 2.635g   1092 R 100.0 34.3  12:22.72 a.out
+
+top - 16:06:03 up  6:05,  1 user,  load average: 1.06, 1.09, 0.95
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 27.8 us,  0.9 sy,  0.0 ni, 71.0 id,  0.2 wa,  0.0 hi,  0.1 si,  0.0 st
+KiB Mem :  8065668 total,  2453080 free,  4882456 used,   730132 buff/cache
+KiB Swap:  8203260 total,  7447292 free,   755968 used.  2806068 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0 2781800 2.653g   1092 R 100.0 34.5  12:32.73 a.out
+
+top - 16:06:13 up  6:05,  1 user,  load average: 1.05, 1.09, 0.95
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 27.8 us,  1.2 sy,  0.0 ni, 70.3 id,  0.6 wa,  0.0 hi,  0.1 si,  0.0 st
+KiB Mem :  8065668 total,  2413352 free,  4924544 used,   727772 buff/cache
+KiB Swap:  8203260 total,  7447292 free,   755968 used.  2766420 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0 2806436 2.676g   1092 R  99.8 34.8  12:42.73 a.out
+
+top - 16:06:23 up  6:05,  1 user,  load average: 1.04, 1.09, 0.95
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 26.0 us,  0.6 sy,  0.0 ni, 73.2 id,  0.2 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  8065668 total,  2403292 free,  4934824 used,   727552 buff/cache
+KiB Swap:  8203260 total,  7447292 free,   755968 used.  2756384 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0 2833848 2.702g   1092 R 100.0 35.1  12:52.75 a.out
+
+top - 16:06:33 up  6:06,  1 user,  load average: 1.04, 1.08, 0.96
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 25.9 us,  0.6 sy,  0.0 ni, 73.3 id,  0.2 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  8065668 total,  2359760 free,  4978272 used,   727636 buff/cache
+KiB Swap:  8203260 total,  7447292 free,   755968 used.  2712896 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0 2869020 2.736g   1092 R  99.9 35.6  13:02.75 a.out
+
+top - 16:06:43 up  6:06,  1 user,  load average: 1.10, 1.10, 0.96
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 25.7 us,  0.6 sy,  0.0 ni, 73.3 id,  0.4 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  8065668 total,  2313684 free,  5024292 used,   727692 buff/cache
+KiB Swap:  8203260 total,  7447292 free,   755968 used.  2666856 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0 2908448 2.773g   1092 R 100.0 36.1  13:12.75 a.out
+
+top - 16:06:53 up  6:06,  1 user,  load average: 1.09, 1.09, 0.96
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 26.0 us,  0.7 sy,  0.0 ni, 73.2 id,  0.1 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  8065668 total,  2285928 free,  5052012 used,   727728 buff/cache
+KiB Swap:  8203260 total,  7447292 free,   755968 used.  2639136 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0 2951352 2.814g   1092 R 100.0 36.6  13:22.76 a.out
+
+top - 16:07:03 up  6:06,  1 user,  load average: 1.07, 1.09, 0.96
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 25.6 us,  0.8 sy,  0.0 ni, 73.0 id,  0.6 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  8065668 total,  2236284 free,  5101620 used,   727764 buff/cache
+KiB Swap:  8203260 total,  7447292 free,   755968 used.  2589544 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0 3000392 2.861g   1092 R 100.0 37.2  13:32.78 a.out
+
+top - 16:07:13 up  6:06,  1 user,  load average: 1.06, 1.09, 0.97
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 25.5 us,  1.0 sy,  0.0 ni, 73.4 id,  0.1 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  8065668 total,  2179544 free,  5158320 used,   727804 buff/cache
+KiB Swap:  8203260 total,  7447292 free,   755968 used.  2532840 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0 3053272 2.911g   1092 R  99.9 37.8  13:42.78 a.out
+
+top - 16:07:23 up  6:06,  1 user,  load average: 1.05, 1.08, 0.97
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 25.4 us,  1.1 sy,  0.0 ni, 73.2 id,  0.2 wa,  0.0 hi,  0.1 si,  0.0 st
+KiB Mem :  8065668 total,  2109212 free,  5228612 used,   727844 buff/cache
+KiB Swap:  8203260 total,  7447292 free,   755968 used.  2462532 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0 3113640 2.969g   1092 R  99.9 38.6  13:52.77 a.out
+
+top - 16:07:33 up  6:07,  1 user,  load average: 1.04, 1.08, 0.97
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 25.4 us,  1.0 sy,  0.0 ni, 73.4 id,  0.1 wa,  0.0 hi,  0.1 si,  0.0 st
+KiB Mem :  8065668 total,  2039772 free,  5298004 used,   727892 buff/cache
+KiB Swap:  8203260 total,  7447292 free,   755968 used.  2393132 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0 3176632 3.029g   1092 R  99.9 39.4  14:02.77 a.out
+
+top - 16:07:43 up  6:07,  1 user,  load average: 1.18, 1.11, 0.98
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 26.2 us,  1.5 sy,  0.0 ni, 72.0 id,  0.2 wa,  0.0 hi,  0.1 si,  0.0 st
+KiB Mem :  8065668 total,  1996048 free,  5341684 used,   727936 buff/cache
+KiB Swap:  8203260 total,  7447292 free,   755968 used.  2349444 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0 3249444 3.098g   1092 R 100.0 40.3  14:12.78 a.out
+
+top - 16:07:53 up  6:07,  1 user,  load average: 1.15, 1.11, 0.98
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 25.7 us,  0.7 sy,  0.0 ni, 73.3 id,  0.2 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  8065668 total,  1919396 free,  5418284 used,   727988 buff/cache
+KiB Swap:  8203260 total,  7447292 free,   755968 used.  2272828 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0 3324540 3.170g   1092 R  99.9 41.2  14:22.78 a.out
+
+top - 16:08:03 up  6:07,  1 user,  load average: 1.13, 1.10, 0.98
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 25.7 us,  0.6 sy,  0.0 ni, 73.5 id,  0.2 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  8065668 total,  1896480 free,  5441156 used,   728032 buff/cache
+KiB Swap:  8203260 total,  7447292 free,   755968 used.  2249952 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0 3339628 3.185g   1092 R  99.9 41.4  14:32.78 a.out
+
+top - 16:08:13 up  6:07,  1 user,  load average: 1.33, 1.15, 1.00
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 28.6 us,  1.2 sy,  0.0 ni, 69.6 id,  0.5 wa,  0.0 hi,  0.1 si,  0.0 st
+KiB Mem :  8065668 total,  1865084 free,  5472924 used,   727660 buff/cache
+KiB Swap:  8203260 total,  7447292 free,   755968 used.  2218636 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0 3347892 3.192g   1092 R 100.0 41.5  14:42.79 a.out
+
+top - 16:08:23 up  6:07,  1 user,  load average: 1.28, 1.14, 1.00
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 25.2 us,  0.7 sy,  0.0 ni, 74.0 id,  0.2 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  8065668 total,  1875376 free,  5462596 used,   727696 buff/cache
+KiB Swap:  8203260 total,  7447292 free,   755968 used.  2228972 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0 3360664 3.205g   1092 R 100.0 41.7  14:52.79 a.out
+
+top - 16:08:33 up  6:08,  1 user,  load average: 1.24, 1.14, 1.00
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 25.0 us,  0.5 sy,  0.0 ni, 74.3 id,  0.2 wa,  0.0 hi,  0.1 si,  0.0 st
+KiB Mem :  8065668 total,  1863596 free,  5474340 used,   727732 buff/cache
+KiB Swap:  8203260 total,  7447292 free,   755968 used.  2217228 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0 3377020 3.220g   1092 R  99.9 41.9  15:02.79 a.out
+
+top - 16:08:43 up  6:08,  1 user,  load average: 1.20, 1.13, 1.00
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 25.4 us,  0.8 sy,  0.0 ni, 73.0 id,  0.7 wa,  0.0 hi,  0.1 si,  0.0 st
+KiB Mem :  8065668 total,  1813472 free,  5524272 used,   727924 buff/cache
+KiB Swap:  8203260 total,  7447292 free,   755968 used.  2167168 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0 3396020 3.238g   1092 R  99.9 42.1  15:12.79 a.out
+
+top - 16:08:53 up  6:08,  1 user,  load average: 1.17, 1.13, 1.00
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 25.3 us,  0.4 sy,  0.0 ni, 73.6 id,  0.7 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  8065668 total,  1800840 free,  5536676 used,   728152 buff/cache
+KiB Swap:  8203260 total,  7447292 free,   755968 used.  2154836 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0 3421780 3.263g   1092 R  99.9 42.4  15:22.79 a.out
+
+top - 16:09:03 up  6:08,  1 user,  load average: 1.14, 1.12, 1.00
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 25.7 us,  0.4 sy,  0.0 ni, 73.5 id,  0.3 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  8065668 total,  1766196 free,  5570080 used,   729392 buff/cache
+KiB Swap:  8203260 total,  7447292 free,   755968 used.  2121464 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0 3449264 3.289g   1092 R  99.9 42.8  15:32.79 a.out
+
+top - 16:09:13 up  6:08,  1 user,  load average: 1.12, 1.12, 1.00
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 25.3 us,  0.5 sy,  0.0 ni, 73.3 id,  0.8 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  8065668 total,  1747976 free,  5588024 used,   729668 buff/cache
+KiB Swap:  8203260 total,  7447292 free,   755968 used.  2103276 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0 3484676 3.323g   1092 R 100.0 43.2  15:42.80 a.out
+
+top - 16:09:23 up  6:08,  1 user,  load average: 1.10, 1.11, 1.00
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 25.1 us,  0.4 sy,  0.0 ni, 74.4 id,  0.1 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  8065668 total,  1709164 free,  5626812 used,   729692 buff/cache
+KiB Swap:  8203260 total,  7447292 free,   755968 used.  2064492 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0 3522936 3.359g   1092 R  99.9 43.7  15:52.80 a.out
+
+top - 16:09:33 up  6:09,  1 user,  load average: 1.08, 1.11, 1.00
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 24.8 us,  0.7 sy,  0.0 ni, 74.0 id,  0.5 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  8065668 total,  1662168 free,  5673788 used,   729712 buff/cache
+KiB Swap:  8203260 total,  7447292 free,   755968 used.  2017532 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0 3565892 3.400g   1092 R 100.0 44.2  16:02.81 a.out
+
+top - 16:09:43 up  6:09,  1 user,  load average: 1.07, 1.11, 1.00
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 25.0 us,  0.5 sy,  0.0 ni, 74.4 id,  0.1 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  8065668 total,  1606216 free,  5729804 used,   729648 buff/cache
+KiB Swap:  8203260 total,  7447292 free,   755968 used.  1961612 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0 3614516 3.446g   1092 R 100.0 44.8  16:12.81 a.out
+
+top - 16:09:53 up  6:09,  1 user,  load average: 1.14, 1.12, 1.01
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 25.4 us,  0.7 sy,  0.0 ni, 73.7 id,  0.2 wa,  0.0 hi,  0.1 si,  0.0 st
+KiB Mem :  8065668 total,  1565296 free,  5770684 used,   729688 buff/cache
+KiB Swap:  8203260 total,  7447292 free,   755968 used.  1920728 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0 3667340 3.497g   1092 R  99.9 45.5  16:22.81 a.out
+
+top - 16:10:03 up  6:09,  1 user,  load average: 1.12, 1.11, 1.00
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 25.0 us,  0.6 sy,  0.0 ni, 74.0 id,  0.4 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  8065668 total,  1504536 free,  5831388 used,   729744 buff/cache
+KiB Swap:  8203260 total,  7447292 free,   755968 used.  1860024 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0 3727968 3.554g   1092 R 100.0 46.2  16:32.82 a.out
+
+top - 16:10:13 up  6:09,  1 user,  load average: 1.10, 1.11, 1.00
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 25.1 us,  0.4 sy,  0.0 ni, 74.3 id,  0.1 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  8065668 total,  1428992 free,  5907004 used,   729672 buff/cache
+KiB Swap:  8203260 total,  7447292 free,   755968 used.  1784504 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0 3793044 3.617g   1092 R  99.9 47.0  16:42.81 a.out
+
+top - 16:10:23 up  6:09,  1 user,  load average: 1.08, 1.11, 1.00
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 25.2 us,  0.6 sy,  0.0 ni, 74.0 id,  0.2 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  8065668 total,  1367488 free,  5968472 used,   729708 buff/cache
+KiB Swap:  8203260 total,  7447292 free,   755968 used.  1723036 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0 3863228 3.684g   1092 R  99.9 47.9  16:52.81 a.out
+
+top - 16:10:33 up  6:10,  1 user,  load average: 1.07, 1.10, 1.00
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 25.0 us,  0.6 sy,  0.0 ni, 74.2 id,  0.2 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  8065668 total,  1295692 free,  6040236 used,   729740 buff/cache
+KiB Swap:  8203260 total,  7447292 free,   755968 used.  1651272 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0 3936232 3.753g   1092 R  99.9 48.8  17:02.81 a.out
+
+top - 16:10:43 up  6:10,  1 user,  load average: 1.06, 1.10, 1.00
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 25.0 us,  0.5 sy,  0.0 ni, 73.9 id,  0.6 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  8065668 total,  1249224 free,  6086700 used,   729744 buff/cache
+KiB Swap:  8203260 total,  7447292 free,   755968 used.  1604832 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0 3970456 3.786g   1092 R  99.8 49.2  17:12.80 a.out
+
+top - 16:10:53 up  6:10,  1 user,  load average: 1.13, 1.11, 1.01
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 29.2 us,  1.9 sy,  0.0 ni, 68.8 id,  0.1 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  8065668 total,  1186752 free,  6138780 used,   740136 buff/cache
+KiB Swap:  8203260 total,  7447292 free,   755968 used.  1542424 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0 3977776 3.793g   1092 R 100.0 49.3  17:22.82 a.out
+
+top - 16:11:03 up  6:10,  1 user,  load average: 1.11, 1.11, 1.00
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 27.1 us,  1.0 sy,  0.0 ni, 70.9 id,  1.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  8065668 total,  1170696 free,  6159420 used,   735552 buff/cache
+KiB Swap:  8203260 total,  7447292 free,   755968 used.  1526624 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0 3989728 3.804g   1092 R 100.0 49.5  17:32.82 a.out
+
+top - 16:11:13 up  6:10,  1 user,  load average: 1.09, 1.10, 1.00
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 24.9 us,  0.5 sy,  0.0 ni, 74.4 id,  0.1 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  8065668 total,  1149764 free,  6180700 used,   735204 buff/cache
+KiB Swap:  8203260 total,  7447292 free,   755968 used.  1505672 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0 4003700 3.818g   1092 R 100.0 49.6  17:42.83 a.out
+
+top - 16:11:23 up  6:10,  1 user,  load average: 1.56, 1.20, 1.04
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 34.2 us,  2.5 sy,  0.0 ni, 60.5 id,  2.8 wa,  0.0 hi,  0.1 si,  0.0 st
+KiB Mem :  8065668 total,  1020240 free,  6304336 used,   741092 buff/cache
+KiB Swap:  8203260 total,  7447292 free,   755968 used.  1378936 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0 4022088 3.835g   1092 R 100.0 49.9  17:52.84 a.out
+
+top - 16:11:33 up  6:11,  1 user,  load average: 1.47, 1.19, 1.03
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 45.2 us,  3.4 sy,  0.0 ni, 49.2 id,  2.2 wa,  0.0 hi,  0.1 si,  0.0 st
+KiB Mem :  8065668 total,   845832 free,  6475096 used,   744740 buff/cache
+KiB Swap:  8203260 total,  7447292 free,   755968 used.  1207536 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0 4040872 3.853g   1092 R 100.0 50.1  18:02.85 a.out
+
+top - 16:11:43 up  6:11,  1 user,  load average: 1.87, 1.29, 1.07
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 37.8 us,  2.6 sy,  0.0 ni, 57.8 id,  1.7 wa,  0.0 hi,  0.1 si,  0.0 st
+KiB Mem :  8065668 total,   761904 free,  6557956 used,   745808 buff/cache
+KiB Swap:  8203260 total,  7447292 free,   755968 used.  1124344 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0 4065192 3.876g   1092 R  99.9 50.4  18:12.85 a.out
+
+top - 16:11:53 up  6:11,  1 user,  load average: 1.74, 1.28, 1.07
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 31.0 us,  1.4 sy,  0.0 ni, 65.2 id,  2.4 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  8065668 total,   799004 free,  6520900 used,   745764 buff/cache
+KiB Swap:  8203260 total,  7447292 free,   755968 used.  1161600 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0 4092884 3.903g   1092 R 100.0 50.7  18:22.86 a.out
+
+top - 16:12:03 up  6:11,  1 user,  load average: 1.63, 1.27, 1.06
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 34.3 us,  2.1 sy,  0.0 ni, 62.4 id,  1.1 wa,  0.0 hi,  0.1 si,  0.0 st
+KiB Mem :  8065668 total,   744976 free,  6573824 used,   746868 buff/cache
+KiB Swap:  8203260 total,  7447292 free,   755968 used.  1107896 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0 4125676 3.934g   1092 R  99.9 51.1  18:32.86 a.out
+
+top - 16:12:13 up  6:11,  1 user,  load average: 1.68, 1.29, 1.08
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 50.3 us,  3.5 sy,  0.0 ni, 44.2 id,  1.7 wa,  0.0 hi,  0.2 si,  0.0 st
+KiB Mem :  8065668 total,   660956 free,  6647300 used,   757412 buff/cache
+KiB Swap:  8203260 total,  7447292 free,   755968 used.  1035588 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0 4156872 3.964g   1092 R  99.9 51.5  18:42.86 a.out
+
+top - 16:12:23 up  6:11,  1 user,  load average: 1.74, 1.32, 1.09
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 30.8 us,  1.8 sy,  0.0 ni, 65.5 id,  1.9 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  8065668 total,   659876 free,  6651736 used,   754056 buff/cache
+KiB Swap:  8203260 total,  7447292 free,   755968 used.  1034688 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0 4198788 4.004g   1092 R 100.0 52.1  18:52.87 a.out
+
+top - 16:12:33 up  6:12,  1 user,  load average: 2.02, 1.39, 1.11
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 32.7 us,  2.0 sy,  0.0 ni, 63.7 id,  1.6 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  8065668 total,   667784 free,  6641684 used,   756200 buff/cache
+KiB Swap:  8203260 total,  7447292 free,   755968 used.  1042740 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0 4241680 4.045g   1092 R 100.0 52.6  19:02.88 a.out
+
+top - 16:12:43 up  6:12,  1 user,  load average: 1.87, 1.38, 1.11
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 32.3 us,  2.1 sy,  0.0 ni, 63.6 id,  1.9 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  8065668 total,   590244 free,  6715124 used,   760300 buff/cache
+KiB Swap:  8203260 total,  7447292 free,   755968 used.   965412 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0 4291292 4.092g   1092 R 100.0 53.2  19:12.89 a.out
+
+top - 16:12:53 up  6:12,  1 user,  load average: 1.81, 1.38, 1.11
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 37.7 us,  3.3 sy,  0.0 ni, 57.3 id,  1.6 wa,  0.0 hi,  0.1 si,  0.0 st
+KiB Mem :  8065668 total,   751516 free,  6554420 used,   759732 buff/cache
+KiB Swap:  8203260 total,  7447292 free,   755968 used.  1127100 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0 4339616 4.138g   1092 R 100.0 53.8  19:22.90 a.out
+
+top - 16:13:03 up  6:12,  1 user,  load average: 1.69, 1.37, 1.11
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 27.8 us,  0.9 sy,  0.0 ni, 70.3 id,  1.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  8065668 total,   719324 free,  6588792 used,   757552 buff/cache
+KiB Swap:  8203260 total,  7447292 free,   755968 used.  1094856 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0 4400892 4.197g   1092 R  99.8 54.6  19:32.89 a.out
+
+top - 16:13:13 up  6:12,  1 user,  load average: 1.58, 1.35, 1.11
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 30.2 us,  1.7 sy,  0.0 ni, 66.9 id,  1.2 wa,  0.0 hi,  0.1 si,  0.0 st
+KiB Mem :  8065668 total,   624220 free,  6684052 used,   757396 buff/cache
+KiB Swap:  8203260 total,  7447292 free,   755968 used.   999908 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0 4461476 4.254g   1092 R 100.0 55.3  19:42.90 a.out
+
+top - 16:13:23 up  6:12,  1 user,  load average: 1.49, 1.34, 1.11
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 29.3 us,  1.2 sy,  0.0 ni, 67.6 id,  1.9 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  8065668 total,   539760 free,  6760304 used,   765604 buff/cache
+KiB Swap:  8203260 total,  7447292 free,   755968 used.   917268 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0 4531580 4.321g   1092 R  99.9 56.2  19:52.90 a.out
+
+top - 16:13:33 up  6:13,  1 user,  load average: 1.72, 1.40, 1.13
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 38.9 us,  2.2 sy,  0.0 ni, 57.4 id,  1.5 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  8065668 total,   348916 free,  6954712 used,   762040 buff/cache
+KiB Swap:  8203260 total,  7447292 free,   755968 used.   726716 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0 4599496 4.386g   1092 R  99.9 57.0  20:02.89 a.out
+
+top - 16:13:43 up  6:13,  1 user,  load average: 1.61, 1.38, 1.13
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 30.5 us,  1.7 sy,  0.0 ni, 65.7 id,  2.1 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  8065668 total,   420708 free,  6888388 used,   756572 buff/cache
+KiB Swap:  8203260 total,  7447292 free,   755968 used.   798672 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0 4624228 4.410g   1092 R  99.8 57.3  20:12.88 a.out
+
+top - 16:13:53 up  6:13,  1 user,  load average: 1.51, 1.37, 1.12
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 29.3 us,  1.4 sy,  0.0 ni, 67.6 id,  1.7 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  8065668 total,   473200 free,  6836412 used,   756056 buff/cache
+KiB Swap:  8203260 total,  7447292 free,   755968 used.   851232 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0 4632068 4.417g   1092 R 100.0 57.4  20:22.89 a.out
+
+top - 16:14:03 up  6:13,  1 user,  load average: 1.43, 1.36, 1.12
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 30.2 us,  1.8 sy,  0.0 ni, 67.6 id,  0.4 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  8065668 total,   441772 free,  6867640 used,   756256 buff/cache
+KiB Swap:  8203260 total,  7447292 free,   755968 used.   819912 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0 4644996 4.429g   1092 R 100.0 57.6  20:32.89 a.out
+
+top - 16:14:13 up  6:13,  1 user,  load average: 1.53, 1.38, 1.13
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 27.6 us,  1.4 sy,  0.0 ni, 69.6 id,  1.4 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  8065668 total,   426260 free,  6882700 used,   756708 buff/cache
+KiB Swap:  8203260 total,  7447292 free,   755968 used.   804492 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0 4659260 4.443g   1092 R  99.9 57.8  20:42.89 a.out
+
+top - 16:14:23 up  6:13,  1 user,  load average: 1.45, 1.37, 1.13
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 26.0 us,  0.8 sy,  0.0 ni, 72.6 id,  0.6 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  8065668 total,   412432 free,  6897336 used,   755900 buff/cache
+KiB Swap:  8203260 total,  7447292 free,   755968 used.   790748 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0 4679156 4.462g   1092 R 100.0 58.0  20:52.90 a.out
+
+top - 16:14:33 up  6:14,  1 user,  load average: 1.38, 1.35, 1.13
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 27.3 us,  1.0 sy,  0.0 ni, 71.4 id,  0.2 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  8065668 total,   382052 free,  6928036 used,   755580 buff/cache
+KiB Swap:  8203260 total,  7447292 free,   755968 used.   760396 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0 4701448 4.483g   1092 R 100.0 58.3  21:02.91 a.out
+
+top - 16:14:43 up  6:14,  1 user,  load average: 1.32, 1.34, 1.13
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 25.6 us,  0.5 sy,  0.0 ni, 73.7 id,  0.2 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  8065668 total,   349616 free,  6960008 used,   756044 buff/cache
+KiB Swap:  8203260 total,  7447292 free,   755968 used.   727996 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0 4728860 4.509g   1092 R 100.0 58.6  21:12.92 a.out
+
+top - 16:14:53 up  6:14,  1 user,  load average: 1.35, 1.35, 1.13
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 32.4 us,  1.7 sy,  0.0 ni, 65.3 id,  0.6 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  8065668 total,   329408 free,  6979548 used,   756712 buff/cache
+KiB Swap:  8203260 total,  7447292 free,   755968 used.   707912 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0 4758372 4.537g   1092 R  99.9 59.0  21:22.92 a.out
+
+top - 16:15:03 up  6:14,  1 user,  load average: 1.52, 1.38, 1.14
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 28.4 us,  0.9 sy,  0.0 ni, 68.6 id,  2.1 wa,  0.0 hi,  0.1 si,  0.0 st
+KiB Mem :  8065668 total,   306424 free,  7003188 used,   756056 buff/cache
+KiB Swap:  8203260 total,  7447292 free,   755968 used.   685300 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0 4792648 4.570g   1092 R 100.0 59.4  21:32.94 a.out
+
+top - 16:15:13 up  6:14,  1 user,  load average: 1.44, 1.37, 1.14
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 28.4 us,  1.5 sy,  0.0 ni, 69.9 id,  0.1 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  8065668 total,   252032 free,  7056708 used,   756928 buff/cache
+KiB Swap:  8203260 total,  7447292 free,   755968 used.   631028 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0 4831140 4.607g   1092 R  99.9 59.9  21:42.94 a.out
+
+top - 16:15:23 up  6:14,  1 user,  load average: 1.37, 1.36, 1.14
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 29.1 us,  1.4 sy,  0.0 ni, 66.7 id,  2.7 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  8065668 total,   209764 free,  7098616 used,   757288 buff/cache
+KiB Swap:  8203260 total,  7447292 free,   755968 used.   589144 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0 4874204 4.648g   1092 R 100.0 60.4  21:52.95 a.out
+
+top - 16:15:33 up  6:15,  1 user,  load average: 1.31, 1.35, 1.14
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 35.5 us,  2.9 sy,  0.0 ni, 60.6 id,  0.9 wa,  0.0 hi,  0.1 si,  0.0 st
+KiB Mem :  8065668 total,   145328 free,  7156416 used,   763924 buff/cache
+KiB Swap:  8203260 total,  7447292 free,   755968 used.   524788 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0 4917468 4.689g   1092 R 100.0 61.0  22:02.97 a.out
+
+top - 16:15:43 up  6:15,  1 user,  load average: 1.26, 1.33, 1.14
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 28.4 us,  1.2 sy,  0.0 ni, 68.8 id,  1.7 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  8065668 total,   125276 free,  7200304 used,   740088 buff/cache
+KiB Swap:  8203260 total,  7446724 free,   756536 used.   477420 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0 4969160 4.738g   1092 R  99.9 61.6  22:12.97 a.out
+
+top - 16:15:53 up  6:15,  1 user,  load average: 1.22, 1.32, 1.13
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 27.6 us,  1.2 sy,  0.0 ni, 70.2 id,  1.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  8065668 total,   143528 free,  7249288 used,   672852 buff/cache
+KiB Swap:  8203260 total,  7446468 free,   756792 used.   430356 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0 5024428 4.791g   1092 R 100.0 62.3  22:22.98 a.out
+
+top - 16:16:03 up  6:15,  1 user,  load average: 1.19, 1.31, 1.13
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 26.2 us,  0.8 sy,  0.0 ni, 72.5 id,  0.4 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  8065668 total,   142864 free,  7312656 used,   610148 buff/cache
+KiB Swap:  8203260 total,  7446212 free,   757048 used.   367216 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0 5087940 4.852g   1092 R 100.0 63.1  22:32.99 a.out
+
+top - 16:16:13 up  6:15,  1 user,  load average: 1.16, 1.30, 1.13
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 25.1 us,  0.5 sy,  0.0 ni, 73.8 id,  0.5 wa,  0.0 hi,  0.1 si,  0.0 st
+KiB Mem :  8065668 total,   125448 free,  7386828 used,   553392 buff/cache
+KiB Swap:  8203260 total,  7446212 free,   757048 used.   293360 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0 5154184 4.915g   1092 R 100.0 63.9  22:43.00 a.out
+
+top - 16:16:23 up  6:15,  1 user,  load average: 1.13, 1.29, 1.13
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 26.6 us,  1.4 sy,  0.0 ni, 70.7 id,  1.2 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  8065668 total,   141144 free,  7459176 used,   465348 buff/cache
+KiB Swap:  8203260 total,  7446212 free,   757048 used.   221384 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0 5224328 4.982g   1092 R 100.0 64.8  22:53.01 a.out
+
+top - 16:16:33 up  6:16,  1 user,  load average: 1.27, 1.31, 1.14
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 28.8 us,  1.4 sy,  0.0 ni, 67.4 id,  2.3 wa,  0.0 hi,  0.1 si,  0.0 st
+KiB Mem :  8065668 total,   127152 free,  7529632 used,   408884 buff/cache
+KiB Swap:  8203260 total,  7446468 free,   756792 used.   148164 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19212 ravi      20   0 5293492 5.048g   1092 R  99.9 65.6  23:03.01 a.out
+
+top - 16:16:43 up  6:16,  1 user,  load average: 1.08, 1.27, 1.13
+Tasks:   0 total,   0 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  9.5 us,  2.3 sy,  0.0 ni, 84.3 id,  3.9 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  8065668 total,  5447524 free,  2221028 used,   397116 buff/cache
+KiB Swap:  8203260 total,  7446724 free,   756536 used.  5460020 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+
+top - 16:16:53 up  6:16,  1 user,  load average: 1.39, 1.33, 1.15
+Tasks:   0 total,   0 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 18.0 us,  4.5 sy,  0.0 ni, 69.6 id,  7.8 wa,  0.0 hi,  0.1 si,  0.0 st
+KiB Mem :  8065668 total,  5503020 free,  2155184 used,   407464 buff/cache
+KiB Swap:  8203260 total,  7446724 free,   756536 used.  5533420 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+
+top - 16:17:03 up  6:16,  1 user,  load average: 1.34, 1.32, 1.14
+Tasks:   0 total,   0 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 16.8 us,  5.0 sy,  0.0 ni, 73.3 id,  4.8 wa,  0.0 hi,  0.1 si,  0.0 st
+KiB Mem :  8065668 total,  5498556 free,  2150552 used,   416560 buff/cache
+KiB Swap:  8203260 total,  7446724 free,   756536 used.  5536620 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+
+top - 16:17:13 up  6:16,  1 user,  load average: 1.13, 1.27, 1.13
+Tasks:   0 total,   0 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  6.2 us,  2.1 sy,  0.1 ni, 90.8 id,  0.8 wa,  0.0 hi,  0.1 si,  0.0 st
+KiB Mem :  8065668 total,  5509592 free,  2144604 used,   411472 buff/cache
+KiB Swap:  8203260 total,  7446724 free,   756536 used.  5547960 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+
+top - 16:17:23 up  6:16,  1 user,  load average: 0.96, 1.23, 1.12
+Tasks:   0 total,   0 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  7.4 us,  2.2 sy,  0.1 ni, 87.9 id,  2.4 wa,  0.0 hi,  0.1 si,  0.0 st
+KiB Mem :  8065668 total,  5503240 free,  2150924 used,   411504 buff/cache
+KiB Swap:  8203260 total,  7446724 free,   756536 used.  5541744 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+
+top - 16:17:33 up  6:17,  1 user,  load average: 0.81, 1.19, 1.11
+Tasks:   0 total,   0 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  4.6 us,  1.3 sy,  0.0 ni, 93.3 id,  0.8 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  8065668 total,  5501840 free,  2151740 used,   412088 buff/cache
+KiB Swap:  8203260 total,  7446724 free,   756536 used.  5541036 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+
+top - 16:17:43 up  6:17,  1 user,  load average: 0.77, 1.17, 1.10
+Tasks:   0 total,   0 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  5.0 us,  1.7 sy,  0.0 ni, 93.1 id,  0.2 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  8065668 total,  5483240 free,  2169520 used,   412908 buff/cache
+KiB Swap:  8203260 total,  7446724 free,   756536 used.  5522452 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND

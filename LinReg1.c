@@ -4,7 +4,6 @@
 #include<gsl/gsl_vector.h>
 #include<gsl/gsl_linalg.h>
 #include<gsl/gsl_math.h>
-#include<gsl/gsl_blas.h>
 #include <sys/times.h>
 #include <unistd.h>
 #include<time.h>
@@ -353,19 +352,19 @@ gsl_matrix * SRHT(int k, gsl_matrix * A1, gsl_matrix * B1, gsl_matrix * C1){
   if (flag==1)
     printf("Error!!: Unable to copy matrix entries, fn:SRHT\n");
 
-  flag = matrix_diagonal_product(D1, A, 1);
+  flag = matrix_diagonal_product(D1, A, 1); // Stores output in A
   if (flag==1)
     printf("Error!!: Issues in matrix multiplication of D1 and A\n");
 
-  flag = matrix_diagonal_product(D2, B, 1);
+  flag = matrix_diagonal_product(D2, B, 1); // Stores output in B
   if (flag==1)
     printf("Error!!: Issues in matrix multiplication of D2 and B\n");
 
-  flag = matrix_diagonal_product(D2, C, 1);
+  flag = matrix_diagonal_product(D2, C, 1);// Stores output in C
   if (flag==1)
     printf("Error!!: Issues in matrix multiplication of D2 and C\n");
   //printf("E1\n");
-  gsl_matrix * HDA = HadamardProduct(A, 0, A->size1 - 1);
+  gsl_matrix * HDA = HadamardProduct(A, 0, A->size1 - 1); // Stores output in A
   //printf("E1a\n");
   gsl_vector * P1 = sampling_matrix(k, A->size1);
   //printf("E1b\n");
@@ -379,7 +378,7 @@ gsl_matrix * SRHT(int k, gsl_matrix * A1, gsl_matrix * B1, gsl_matrix * C1){
   gsl_matrix_free(HDB);
   //printf("E3\n");
 
-  gsl_matrix * HDC = HadamardProduct(C, 0, C->size1-1);
+  gsl_matrix * HDC = HadamardProduct(C, 0, C->size1-1); // Already multiplied with diagonal above
   gsl_matrix * PHDC = Subsampled(HDC, P2);
   gsl_matrix_free(HDC);
   gsl_matrix * PHDC_T = transpose(PHDC);
@@ -413,15 +412,15 @@ gsl_matrix * SRHT(int k, gsl_matrix * A1, gsl_matrix * B1, gsl_matrix * C1){
 int main (void){
   //int m_arr[10] = {128, 256, 512, 1024, 2048, 4096, 8192, 16384, 32786, 65536};
   //int d_arr[7] = {5, 10, 25, 50, 75, 100, 125};
-  int m_arr[6] = {256, 512, 1024, 2048, 4096, 8192};
+  int m_arr[2] = {256, 512};
   int m, d, jump;
   double err=0, err1, tick_sec = sysconf(_SC_CLK_TCK);
   //filename = "output.csv";
   FILE * fp;
-  fp = fopen("output.csv", "w+");
+  fp = fopen("output1.csv", "w+");
   fprintf(fp, "M, N, K, iter, error, time\n"); //K=-1 and iter = 0 means exact solution
   //printf("The clock Tick rate is %lf\n", tick_sec);
-  for(int i1=0; i1<6; i1++){
+  for(int i1=0; i1<1; i1++){
     m = m_arr[i1];
     jump = (((m/10) - sqrt(m))/5);
     for(int j1=sqrt(m); j1<(m/10); j1+=jump){
@@ -433,23 +432,24 @@ int main (void){
       struct tms  start, end;
 
       times(&start);
-      gsl_matrix * X_true = Solve(B, A, C);
+      gsl_matrix * X_true = Solve(B, A, C); // Computes the exact solution
       times(&end);
       clock_t usr_time = end.tms_utime - start.tms_utime;
       clock_t sys_time = end.tms_stime - start.tms_stime;
       //cpu_time_used = ((double) (end - start)) / CLOCKS_PER_SEC;
       err = Error(B, X_true, A, C);
+      gsl_matrix_free(X_true);
       //printf("Error for exact solution is %lf and time taken is %lf ms\n", err, 1000*(usr_time + sys_time)/tick_sec);
       fprintf(fp, "%d, %d, -1, 0, %lf, %lf\n", m, d, err, 1000*(usr_time + sys_time)/tick_sec);
-      int inc = (int)(0.05*m);
+      int inc = (int)(0.05*m); // Step size increase in as a linear function of m.
       //printf("%d\n", inc);
       //int k = (int)Cons*(d/(eps*eps))*log(d/delta)*log((d*m)/delta);
       for(int k=d; k<=(8*inc+d); k+=inc){
-        for(int no=0; no<20; no++){
+        for(int no=0; no<1000; no++){
           //printf("m: %d d: %d, k: %d\n",m,d,k);
           struct tms  start1, end1;
           times(&start1);
-          gsl_matrix * X_approx = SRHT(k, A, B, C); //gsl_matrix_alloc(m, d);//
+          gsl_matrix * X_approx = SRHT(k, A, B, C); //gsl_matrix_alloc(m, d); Approximate solution using Tensor SRHT
           times(&end1);
           clock_t usr_time1 = end1.tms_utime - start1.tms_utime;
           clock_t sys_time1 = end1.tms_stime - start1.tms_stime;
@@ -463,12 +463,10 @@ int main (void){
       gsl_matrix_free(A);
       gsl_matrix_free(B);
       gsl_matrix_free(C);
-      gsl_matrix_free(X_true);
-
-
     }
 
   }
+  fclose(fp);
   printf("Output written to output.csv\n");
   return 0;
 }
