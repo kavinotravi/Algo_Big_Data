@@ -469,6 +469,7 @@ int main (void){
     }
 
   }
+  fclose(fp);
   printf("Output written to output.csv\n");
   return 0;
 }
