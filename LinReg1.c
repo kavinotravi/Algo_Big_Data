@@ -186,12 +186,10 @@ gsl_matrix * pseudo_inverse(gsl_matrix * matrix){
   return C;
 }
 
-gsl_matrix * Generate_Matrix(int M, int N){
+void Generate_Matrix(gsl_matrix * matrix){
   // Returns a random matrices with orthonormal columns
-  gsl_matrix * matrix = gsl_matrix_alloc(M, N);
   initialize_matrix(matrix);
   orthonormalize(matrix);
-  return matrix;
 }
 
 double frob_norm(gsl_matrix * matrix){
@@ -412,7 +410,7 @@ gsl_matrix * SRHT(int k, gsl_matrix * A1, gsl_matrix * B1, gsl_matrix * C1){
 int main (void){
   //int m_arr[10] = {128, 256, 512, 1024, 2048, 4096, 8192, 16384, 32786, 65536};
   //int d_arr[7] = {5, 10, 25, 50, 75, 100, 125};
-  int m_arr[2] = {256, 512};
+  /*int m_arr[2] = {256, 512};
   int m, d, jump;
   double err=0, err1, tick_sec = sysconf(_SC_CLK_TCK);
   //filename = "output.csv";
@@ -467,6 +465,51 @@ int main (void){
 
   }
   fclose(fp);
-  printf("Output written to output.csv\n");
+  printf("Output written to output.csv\n");*/
+  // https://stackoverflow.com/questions/23953273/dynamically-allocation-and-gslgnu-scientific-library
+  //use this
+  int m = 256, d = 25,k =100;
+  printf("m : %d,d: %d,k: %d", m, d, k);
+  double * mat1 = (double *)malloc((m*d)*sizeof(double)), * mat2 = (double *)malloc((m*d)*sizeof(double)), * mat3 = (double *)malloc((m*d)*sizeof(double));
+  gsl_matrix_view mv1 = gsl_matrix_view_array(mat1, m, d);
+  gsl_matrix * A = &(mv1.matrix);
+
+  gsl_matrix_view mv2 = gsl_matrix_view_array(mat2, m, d);
+  gsl_matrix * B = &(mv2.matrix);
+
+  gsl_matrix_view mv3 = gsl_matrix_view_array(mat3, m, d);
+  gsl_matrix * C = &(mv3.matrix);
+
+  Generate_Matrix(A);
+  Generate_Matrix(B);
+  Generate_Matrix(C);
+
+  struct tms  start, end;
+  printf("Matrix created\n");
+  times(&start);
+  gsl_matrix * X_true = Solve(B, A, C); // Computes the exact solution
+  times(&end);
+  printf("Got the solution\n");
+  clock_t usr_time = end.tms_utime - start.tms_utime;
+  clock_t sys_time = end.tms_stime - start.tms_stime;
+  //cpu_time_used = ((double) (end - start)) / CLOCKS_PER_SEC;
+  double err = Error(B, X_true, A, C), tick_sec = sysconf(_SC_CLK_TCK);
+  gsl_matrix_free(X_true);
+  printf("Error for exact solution is %lf and time taken is %lf ms\n", err, 1000*(usr_time + sys_time)/tick_sec);
+
+  struct tms  start1, end1;
+  times(&start1);
+  gsl_matrix * X_approx = SRHT(k, A, B, C); //gsl_matrix_alloc(m, d); Approximate solution using Tensor SRHT
+  times(&end1);
+  clock_t usr_time1 = end1.tms_utime - start1.tms_utime;
+  clock_t sys_time1 = end1.tms_stime - start1.tms_stime;
+  //cpu_time_used = ((double) (end - start)) / CLOCKS_PER_SEC;
+  double err1 = Error(B, X_approx, A, C);
+  printf("Error for approximate solution is %lf and time taken is %lf ms\n", err1, 1000.0*(usr_time1 + sys_time1)/tick_sec);
+  gsl_matrix_free(X_approx);
+
+  free(A);
+  free(B);
+  free(C);
   return 0;
 }
